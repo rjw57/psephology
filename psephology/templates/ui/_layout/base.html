@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{% block title %}{{ config.SITE_NAME }}{% endblock %}</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    {% block meta %}{% endblock %}
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='ui/css/main.css') }}">
+
+    {% block styles %}{% endblock %}
+
+    {% block head %}{% endblock %}
+  </head>
+
+  <body>
+    {% block body %}
+      {% include '_layout/nav.html' %}
+
+      {% block main %}
+        {% with messages = get_flashed_messages() %}
+          {% if messages %}
+            <aside class="flash-messages">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-8 col-sm-offset-4 col-md-5 col-md-offset-7 col-xs-12">
+                    {% for m in messages %}
+                      <div class="alert alert-info alert-dismissible" role="alert">
+                        <button type="button" class="close" data-dismiss="alert"
+                            aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                        {{m}}
+                      </div>
+                    {% endfor %}
+                  </div>
+                </div>
+              </div>
+            </aside>
+            <script>
+              window.setTimeout(function() {
+                {# From: http://stackoverflow.com/questions/23101966/ #}
+                $('.alert').fadeTo(1000, 0).slideUp(1000, function() {
+                  $(this).remove();
+                });
+              }, 4000);
+            </script>
+          {% endif %}
+        {% endwith %}
+
+      <main>
+        {% block contentwrapper %}
+        <div class="container">
+          {% block content %}{% endblock %}
+        </div>
+        {% endblock contentwrapper %}
+
+      </main>
+      {% endblock %}
+    </div>
+
+    {% endblock %}
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    {% block scripts %}{% endblock %}
+  </body>
+</html>

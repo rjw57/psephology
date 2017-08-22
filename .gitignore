@@ -1,0 +1,15 @@
+# Python bytecode
+*.pyc
+__pycache__
+
+# Setuptools
+build
+dist
+*.egg-info
+.eggs
+
+# DB
+*.sqlite
+
+# Virtualenvs
+venv

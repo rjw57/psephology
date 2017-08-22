@@ -1,0 +1,2 @@
+recursive-include psephology/templates *
+recursive-include psephology/static *
