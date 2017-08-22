@@ -1,5 +1,4 @@
 from setuptools import setup, find_packages
-from psephology.version import __version__
 
 install_requires = '''
     flask
@@ -23,7 +22,6 @@ tests_require = '''
 
 setup(
     name='psephology',
-    version=__version__,
     packages=find_packages(),
     include_package_data=True,
 
