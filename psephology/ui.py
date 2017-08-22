@@ -18,7 +18,7 @@ def summary():
     results = (
         query.party_totals()
         .order_by(desc('constituency_count'))
-    )
+    ).all()
     return render_template('summary.html', results=results)
 
 @blueprint.route('/constituencies')
@@ -28,5 +28,5 @@ def constituencies():
         .options(
             joinedload(Voting.party)
         )
-    )
+    ).all()
     return render_template('constituencies.html', results=results)

@@ -7,12 +7,8 @@
   </h1>
 </div>
 
-{% if not results %}
-<div class="panel-body">
-  <div class="text-center">There are currently no results.</div>
-</div>
-{% else %}
-<table class="table table-striped">
+{% if results %}
+<table class="table table-striped" id="results-table">
   <thead>
     <tr>
       <th>Constituency</th>
@@ -38,6 +34,10 @@
     {% endfor %}
   </tbody>
 </table>
+{% else %}
+<div class="panel-body" id="no-results">
+  <div class="text-center">There are currently no results.</div>
+</div>
 {% endif %}
 
 {% endblock %}

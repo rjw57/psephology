@@ -28,6 +28,12 @@ class ImportAPITests(TestCase):
         r = self.client.get('/api/import')
         self.assertEqual(r.status_code, 405)
 
+    def test_bad_utf8(self):
+        """Importing something which is invalid UTF8 fails with HTTP 400."""
+        data = b'hello, \x80'
+        r = self.client.post('/api/import', data=data)
+        self.assertEqual(r.status_code, 400)
+
     def test_basic_usage(self):
         """The import API's basic usage works."""
         data = '\n'.join(RESULT_LINES)

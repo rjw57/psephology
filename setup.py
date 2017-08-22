@@ -5,6 +5,7 @@ with open(os.path.join(os.path.dirname(__file__), 'requirements.txt')) as f:
         install_requires = f.read().split()
 
 tests_require = '''
+    BeautifulSoup4
     flask-testing
     nose
 '''.split()

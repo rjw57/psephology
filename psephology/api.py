@@ -3,7 +3,7 @@ Blueprint implementing API.
 
 """
 
-from flask import Blueprint, jsonify, request
+from flask import Blueprint, jsonify, request, abort
 from sqlalchemy import func
 from sqlalchemy.orm import joinedload
 
