@@ -19,7 +19,17 @@ from psephology.config.dev import *
 # Any custom config here
 ```
 
+## New results
+
+New results can be imported via the ``importresults`` CLI command. For example:
+
+```console
+$ flask psephology importresults test-data/ge2017_results.txt
+```
+
 ## Running tests
+
+Tests are run via the ``setup.py`` script.
 
 ```console
 $ python setup.py test
