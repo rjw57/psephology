@@ -1,0 +1,7 @@
+Strangford, 507, X, 607, G
+Aberconwy, 14337, C, 13702, L, 81, LD
+Leeds West, 11048, C, 27013, L, 1815, UKIP, 905, LD, 1023, G
+Birmingham, Perry Barr, 11726, C, 30109, L, 1080, LD, 591, G
+
+Oxford East, 11834, C, 35118, L, 4904, LD, 1785, G, 10, LD
+North East Somerset, 28992, C, 18757, L, 4461, LD, 1245, G

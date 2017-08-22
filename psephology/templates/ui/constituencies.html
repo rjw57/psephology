@@ -1,0 +1,43 @@
+{% extends '_layout/base.html' %}
+
+{% block content %}
+<div class="page-header">
+  <h1>
+    Results
+  </h1>
+</div>
+
+{% if not results %}
+<div class="panel-body">
+  <div class="text-center">There are currently no results.</div>
+</div>
+{% else %}
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Constituency</th>
+      <th>Total votes cast</th>
+      <th>Winning party</th>
+      <th>Share</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for constituency, voting, max_votes, total_votes in results %}
+      <tr>
+        <td>{{constituency.name}}</td>
+        {% if voting %}
+          <td>{{total_votes}}</td>
+          <td>{{voting.party.name}}</td>
+          <td>{{'%.1f' | format(100 * max_votes / total_votes)}}%</td>
+        {% else %}
+          <td>&mdash;</td>
+          <td>&mdash;</td>
+          <td>&mdash;</td>
+        {% endif %}
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endif %}
+
+{% endblock %}

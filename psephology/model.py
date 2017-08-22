@@ -82,6 +82,7 @@ def add_constituency_result_line(line, session=None):
     constituency = Constituency.query.filter(Constituency.name==cn).first()
     if constituency is None:
         constituency = Constituency(name=cn)
+        session.add(constituency)
 
     # Delete any prior voting records for this constituency
     Voting.query.filter(Voting.constituency_id==constituency.id).delete()

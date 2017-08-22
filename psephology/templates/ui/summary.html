@@ -3,7 +3,7 @@
 {% block content %}
 <div class="page-header">
   <h1>
-    Results
+    Seat totals
   </h1>
 </div>
 
@@ -15,19 +15,15 @@
 <table class="table table-striped">
   <thead>
     <tr>
-      <th>Constituency</th>
-      <th>Total votes cast</th>
-      <th>Winning party</th>
-      <th>Share</th>
+      <th>Party</th>
+      <th>Seats</th>
     </tr>
   </thead>
   <tbody>
-    {% for voting, max_votes, total_votes in results %}
+    {% for party, constituency_count in results %}
       <tr>
-        <td>{{voting.constituency.name}}</td>
-        <td>{{total_votes}}</td>
-        <td>{{voting.party.name}}</td>
-        <td>{{'%.1f' | format(100 * max_votes / total_votes)}}%</td>
+        <td>{{ party.name }}</td>
+        <td>{{ constituency_count }}</td>
       </tr>
     {% endfor %}
   </tbody>

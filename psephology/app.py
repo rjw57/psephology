@@ -1,5 +1,6 @@
 from flask import Flask
 
+from .api import blueprint as api
 from .ui import blueprint as ui
 from .model import db, migrate
 from .cli import cli
@@ -17,6 +18,7 @@ def create_app(config_filename=None, config_object=None):
     migrate.init_app(app, db, render_as_batch=True)
 
     app.register_blueprint(ui)
+    app.register_blueprint(api, url_prefix='/api')
     app.cli.add_command(cli)
 
     # Things which should only be present in DEBUG-enabled apps
