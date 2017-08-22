@@ -1,5 +1,10 @@
 # Psephology - the study of elections
 
+[![Build
+Status](https://travis-ci.org/rjw57/psephology.svg?branch=master)](https://travis-ci.org/rjw57/psephology)
+[![Coverage
+Status](https://coveralls.io/repos/github/rjw57/psephology/badge.svg?branch=master)](https://coveralls.io/github/rjw57/psephology?branch=master)
+
 ## Development server
 
 ```console
