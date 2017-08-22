@@ -1,17 +1,8 @@
+import os
 from setuptools import setup, find_packages
 
-install_requires = '''
-    flask
-    flask-debugtoolbar
-    flask-migrate
-    flask-shell-ipython
-    flask-sqlalchemy
-
-    sqlalchemy
-    sqlalchemy-utils
-
-    future
-'''.split()
+with open(os.path.join(os.path.dirname(__file__), 'requirements.txt')) as f:
+        install_requires = f.read().split()
 
 tests_require = '''
     flask-testing
@@ -29,4 +20,8 @@ setup(
 
     # To allow for setup.py nosetests command
     setup_requires=['nose>=1.0'],
+
+    # Required because we ship static data files (templates, etc) within our
+    # package
+    zip_safe=False,
 )

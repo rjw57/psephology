@@ -35,3 +35,14 @@ Tests are run via the ``setup.py`` script.
 $ python setup.py test
 ```
 
+## Running via Docker
+
+**Note:** these instructions assume [Docker
+machine](https://docs.docker.com/machine/) is in use.
+
+```console
+$ docker build -t psephology .
+$ docker run -it --rm --name psephology-server -p 5000:5000 psephology
+$ docker exec psephology-server flask db upgrade
+$ xdg-open http://$(docker-machine ip):5000
+```

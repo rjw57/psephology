@@ -1,7 +1,6 @@
 from __future__ import division
 
 import unittest
-from flask_fixtures import FixturesMixin
 
 from psephology._util import token_urlsafe
 
