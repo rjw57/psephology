@@ -1,0 +1,5 @@
+[run]
+source=psephology
+omit=
+	psephology/tests/*
+	psephology/config/*

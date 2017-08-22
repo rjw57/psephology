@@ -1,0 +1,650 @@
+Aberavon, 5901, C, 22662, L, 1345, UKIP, 599, LD
+Aberconwy, 14337, C, 13702, L, 941, LD
+Aberdeen North, 8341, C, 11031, L, 1693, LD, 15170, SNP
+Aberdeen South, 18746, C, 9143, L, 2610, LD, 13994, SNP
+Airdrie and Shotts, 8813, C, 14096, L, 802, LD, 14291, SNP
+Aldershot, 26950, C, 15477, L, 1796, UKIP, 3637, LD, 1090, G
+Aldridge-Brownhills, 26317, C, 12010, L, 1343, LD
+Altrincham and Sale West, 26933, C, 20507, L, 4051, LD, 1000, G
+Alyn and Deeside, 18080, C, 23315, L, 1117, UKIP, 1077, LD
+Amber Valley, 25905, C, 17605, L, 1100, LD, 650, G
+Angus, 18148, C, 5233, L, 1308, LD, 15503, SNP
+Arfon, 4614, C, 11427, L, 648, LD
+Argyll and Bute, 15976, C, 6044, L, 8745, LD, 17304, SNP
+Arundel and South Downs, 37573, C, 13690, L, 1668, UKIP, 4783, LD, 2542, G
+Ashfield, 20844, C, 21285, L, 1885, UKIP, 969, LD, 398, G
+Ashford, 35318, C, 17840, L, 2218, UKIP, 3101, LD, 1402, G
+Ashton-Under-Lyne, 12710, C, 24005, L, 1878, UKIP, 646, LD, 534, G
+Aylesbury, 32313, C, 17657, L, 1296, UKIP, 5660, LD, 1237, G
+Ayr, Carrick and Cumnock, 18550, C, 11024, L, 872, LD, 15776, SNP
+Banbury, 33388, C, 20989, L, 1581, UKIP, 3452, LD, 1225, G
+Banff and Buchan, 19976, C, 3936, L, 1448, LD, 16283, SNP
+Barking, 10711, C, 32319, L, 3031, UKIP, 599, LD, 724, G
+Barnsley Central, 9436, C, 24982, L, 3339, UKIP, 549, LD, 570, G
+Barnsley East, 10997, C, 24280, L, 3247, UKIP, 750, LD
+Barrow and Furness, 22383, C, 22592, L, 962, UKIP, 1278, LD, 375, G
+Basildon and Billericay, 27381, C, 13981, L, 2008, UKIP, 1548, LD
+Basingstoke, 29510, C, 20044, L, 1681, UKIP, 3406, LD, 1106, G
+Bassetlaw, 22615, C, 27467, L, 1154, LD
+Bath, 17742, C, 7279, L, 23436, LD, 1126, G
+Batley and Spen, 20883, C, 29844, L, 1224, LD, 695, G
+Battersea, 22876, C, 25292, L, 357, UKIP, 4401, LD, 866, G
+Beaconsfield, 36559, C, 12016, L, 1609, UKIP, 4448, LD, 1396, G
+Beckenham, 30632, C, 15545, L, 4073, LD, 1380, G
+Bedford, 21923, C, 22712, L, 2837, LD, 1008, G
+Belfast East, 446, C, 561, G
+Belfast North, 644, G
+Belfast South, 246, C, 2241, G
+Belfast West
+Bermondsey and Old Southwark, 7581, C, 31161, L, 838, UKIP, 18189, LD, 639, G
+Berwickshire, Roxburgh and Selkirk, 28213, C, 4519, L, 2482, LD, 17153, SNP
+Berwick-Upon-Tweed, 22145, C, 10364, L, 8916, LD, 787, G
+Bethnal Green and Bow, 7576, C, 42969, L, 894, UKIP, 2982, LD, 1516, G
+Beverley and Holderness, 32499, C, 18457, L, 2808, LD, 716, G
+Bexhill and Battle, 36854, C, 14689, L, 2006, UKIP, 4485, LD, 1438, G
+Bexleyheath and Crayford, 25113, C, 16040, L, 1944, UKIP, 1201, LD, 601, G
+Birkenhead, 8044, C, 33558, L, 1118, LD, 943, G
+Birmingham, Edgbaston, 17207, C, 24124, L, 1564, LD, 562, G
+Birmingham, Erdington, 14286, C, 21571, L, 750, LD, 610, G
+Birmingham, Hall Green, 8199, C, 42143, L, 3137, LD, 831, G
+Birmingham, Hodge Hill, 6580, C, 37606, L, 1016, UKIP, 805, LD, 387, G
+Birmingham, Ladywood, 5452, C, 34166, L, 1156, LD, 533, G
+Birmingham, Northfield, 18929, C, 23596, L, 959, LD, 864, G
+Birmingham, Perry Barr, 11726, C, 30109, L, 1080, LD, 591, G
+Birmingham, Selly Oak, 15629, C, 30836, L, 1644, LD, 876, G
+Birmingham, Yardley, 8824, C, 25398, L, 1916, UKIP, 7984, LD, 280, G
+Bishop Auckland, 20306, C, 20808, L, 1176, LD
+Blackburn, 12780, C, 33148, L, 709, LD
+Blackley and Broughton, 8657, C, 28258, L, 1825, UKIP, 737, LD, 462, G
+Blackpool North and Cleveleys, 20255, C, 18232, L, 1392, UKIP, 747, LD, 381, G
+Blackpool South, 15058, C, 17581, L, 1339, UKIP, 634, LD, 341, G
+Blaenau Gwent, 4783, C, 18787, L, 973, UKIP, 295, LD
+Blaydon, 13502, C, 26979, L, 2459, UKIP, 4366, LD, 583, G
+Blyth Valley, 15855, C, 23770, L, 1947, LD, 918, G
+Bognor Regis and Littlehampton, 30276, C, 12782, L, 1861, UKIP, 3352, LD, 993, G
+Bolsover, 18865, C, 24153, L, 2129, UKIP, 1372, LD
+Bolton North East, 19073, C, 22870, L, 1567, UKIP, 1316, LD, 357, G
+Bolton South East, 12550, C, 25676, L, 2779, UKIP, 781, LD, 537, G
+Bolton West, 24459, C, 23523, L, 1587, UKIP, 1485, LD
+Bootle, 6059, C, 42259, L, 837, LD, 709, G
+Boston and Skegness, 27271, C, 10699, L, 3308, UKIP, 771, LD, 547, G
+Bosworth, 31864, C, 13513, L, 9744, LD, 1047, G
+Bournemouth East, 25221, C, 17284, L, 1405, UKIP, 3168, LD, 1236, G
+Bournemouth West, 23812, C, 16101, L, 2929, LD, 1247, G
+Bracknell, 32882, C, 16866, L, 1521, UKIP, 4186, LD
+Bradford East, 9291, C, 29831, L, 1372, UKIP, 843, LD, 289, G
+Bradford South, 15664, C, 22364, L, 1758, UKIP, 516, LD, 370, G
+Bradford West, 7542, C, 29444, L, 885, UKIP, 712, LD, 481, G
+Braintree, 32873, C, 14451, L, 1835, UKIP, 2251, LD, 916, G
+Brecon and Radnorshire, 20081, C, 7335, L, 576, UKIP, 12043, LD
+Brent Central, 10211, C, 38208, L, 556, UKIP, 2519, LD, 802, G
+Brentford and Isleworth, 23182, C, 35364, L, 3083, LD
+Brent North, 18435, C, 35496, L, 1614, LD, 660, G
+Brentwood and Ongar, 34811, C, 10809, L, 1845, UKIP, 4426, LD, 915, G
+Bridgend, 17213, C, 21913, L, 781, UKIP, 919, LD
+Bridgwater and West Somerset, 32111, C, 16663, L, 2102, UKIP, 6332, LD, 1059, G
+Brigg and Goole, 27219, C, 14856, L, 1596, UKIP, 836, LD, 550, G
+Brighton, Kemptown, 18835, C, 28703, L, 1457, LD
+Brighton, Pavilion, 11082, C, 15450, L, 630, UKIP, 30149, G
+Bristol East, 17453, C, 30847, L, 1389, LD, 1110, G
+Bristol North West, 22639, C, 27400, L, 2814, LD, 1243, G
+Bristol South, 16679, C, 32666, L, 1672, UKIP, 1821, LD, 1428, G
+Bristol West, 9877, C, 47213, L, 5201, LD, 9216, G
+Broadland, 32406, C, 16590, L, 1594, UKIP, 4449, LD, 932, G
+Bromley and Chislehurst, 25175, C, 15585, L, 1383, UKIP, 3369, LD, 1150, G
+Bromsgrove, 33493, C, 16920, L, 2488, LD, 1139, G
+Broxbourne, 29515, C, 13723, L, 1918, UKIP, 1481, LD, 848, G
+Broxtowe, 25983, C, 25120, L, 1477, UKIP, 2247, LD, 681, G
+Buckingham, 4168, UKIP, 8574, G
+Burnley, 12479, C, 18832, L, 2472, UKIP, 6046, LD, 461, G
+Burton, 28936, C, 18889, L, 1262, LD, 824, G
+Bury North, 21308, C, 25683, L, 912, LD
+Bury South, 21200, C, 27165, L, 1316, UKIP, 1065, LD
+Bury St Edmunds, 36794, C, 18353, L, 3565, LD, 2596, G
+Caerphilly, 10413, C, 22491, L, 1259, UKIP, 725, LD, 447, G
+Caithness, Sutherland and Easter Ross, 6990, C, 3833, L, 11061, LD, 9017, SNP
+Calder Valley, 26790, C, 26181, L, 1466, UKIP, 1952, LD, 631, G
+Camberwell and Peckham, 7349, C, 44665, L, 3413, LD, 1627, G
+Camborne and Redruth, 23001, C, 21424, L, 2979, LD, 1052, G
+Cambridge, 9133, C, 29032, L, 16371, LD, 1265, G
+Cannock Chase, 26318, C, 17927, L, 2018, UKIP, 794, LD, 815, G
+Canterbury, 25385, C, 25572, L, 4561, LD, 1282, G
+Cardiff Central, 7997, C, 25193, L, 343, UKIP, 5415, LD, 420, G
+Cardiff North, 21907, C, 26081, L, 582, UKIP, 1714, LD
+Cardiff South and Penarth, 15318, C, 30182, L, 942, UKIP, 1430, LD, 532, G
+Cardiff West, 13874, C, 26425, L, 698, UKIP, 1214, LD
+Carlisle, 21472, C, 18873, L, 1455, UKIP, 1256, LD
+Carmarthen East and Dinefwr, 10778, C, 12219, L, 985, UKIP, 920, LD
+Carmarthen West and South Pembrokeshire, 19771, C, 16661, L, 905, UKIP, 956, LD
+Carshalton and Wallington, 19450, C, 9360, L, 20819, LD, 501, G
+Castle Point, 30076, C, 11204, L, 2381, UKIP, 1049, LD
+Central Ayrshire, 15504, C, 11762, L, 1050, LD, 16771, SNP
+Central Devon, 31278, C, 15598, L, 1326, UKIP, 6770, LD, 1531, G
+Central Suffolk and North Ipswich, 33992, C, 16807, L, 1635, UKIP, 2431, LD, 1659, G
+Ceredigion, 7307, C, 8017, L, 602, UKIP, 11519, LD, 542, G
+Charnwood, 33318, C, 16977, L, 1471, UKIP, 2052, LD, 1036, G
+Chatham and Aylesford, 25587, C, 15129, L, 2225, UKIP, 1116, LD, 573, G
+Cheadle, 24331, C, 10417, L, 19824, LD
+Chelmsford, 30525, C, 16953, L, 1645, UKIP, 6916, LD, 821, G
+Chelsea and Fulham, 22179, C, 13991, L, 524, UKIP, 4627, LD, 807, G
+Cheltenham, 26615, C, 5408, L, 24046, LD, 943, G
+Chesham and Amersham, 33514, C, 11374, L, 1525, UKIP, 7179, LD, 1660, G
+Chesterfield, 16661, C, 26266, L, 1611, UKIP, 2612, LD, 777, G
+Chichester, 36032, C, 13411, L, 1650, UKIP, 6749, LD, 1992, G
+Chingford and Woodford Green, 23076, C, 20638, L, 2043, LD, 1204, G
+Chippenham, 31267, C, 11236, L, 14637, LD
+Chipping Barnet, 25679, C, 25326, L, 3012, LD, 1406, G
+Chorley, 23233, C, 30745, L, 1126, LD, 530, G
+Christchurch, 35230, C, 10059, L, 4020, LD, 1325, G
+Cities Of London and Westminster, 18005, C, 14857, L, 426, UKIP, 4270, LD, 821, G
+City Of Chester, 22847, C, 32023, L, 1551, LD
+City Of Durham, 14408, C, 26772, L, 1116, UKIP, 4787, LD, 797, G
+Clacton, 27031, C, 11203, L, 3357, UKIP, 887, LD, 719, G
+Cleethorpes, 27321, C, 16921, L, 2022, UKIP, 1110, LD, 470, G
+Clwyd South, 14646, C, 19002, L, 802, UKIP, 731, LD
+Clwyd West, 19541, C, 16104, L, 1091, LD
+Coatbridge, Chryston and Bellshill, 7318, C, 19193, L, 922, LD, 17607, SNP
+Colchester, 24565, C, 18888, L, 9087, LD, 828, G
+Colne Valley, 27903, C, 28818, L, 2494, LD, 892, G
+Congleton, 31830, C, 19211, L, 1289, UKIP, 2902, LD, 999, G
+Copeland, 21062, C, 19367, L, 1094, UKIP, 1404, LD
+Corby, 29534, C, 26844, L, 1495, UKIP, 1545, LD, 579, G
+Coventry North East, 13919, C, 29499, L, 1350, UKIP, 1157, LD, 502, G
+Coventry North West, 18314, C, 26894, L, 1525, UKIP, 1286, LD, 666, G
+Coventry South, 17927, C, 25874, L, 1037, UKIP, 1343, LD, 604, G
+Crawley, 25426, C, 22969, L, 1878, LD
+Crewe and Nantwich, 25880, C, 25928, L, 1885, UKIP, 1334, LD
+Croydon Central, 24221, C, 29873, L, 1040, UKIP, 1083, LD, 626, G
+Croydon North, 11848, C, 44213, L, 753, UKIP, 1656, LD, 983, G
+Croydon South, 33334, C, 21928, L, 1116, UKIP, 3541, LD, 1125, G
+Cumbernauld, Kilsyth and Kirkintilloch East, 8010, C, 14858, L, 605, UKIP, 1238, LD, 19122, SNP
+Cynon Valley, 6166, C, 19404, L, 1271, UKIP, 585, LD
+Dagenham and Rainham, 18306, C, 22958, L, 3246, UKIP, 465, LD, 544, G
+Darlington, 19401, C, 22681, L, 1180, UKIP, 1031, LD, 524, G
+Dartford, 31210, C, 18024, L, 2544, UKIP, 1428, LD, 807, G
+Daventry, 35464, C, 13730, L, 1497, UKIP, 4015, LD, 957, G
+Delyn, 16333, C, 20573, L, 1031, LD
+Denton and Reddish, 11084, C, 25161, L, 1798, UKIP, 853, LD, 486, G
+Derby North, 21607, C, 23622, L, 1181, UKIP, 2262, LD
+Derbyshire Dales, 29744, C, 15417, L, 3126, LD, 1002, G
+Derby South, 15182, C, 26430, L, 2011, UKIP, 1229, LD, 454, G
+Devizes, 31744, C, 10608, L, 1706, UKIP, 4706, LD, 1606, G
+Dewsbury, 25493, C, 28814, L, 1214, LD, 1024, G
+Doncaster Central, 14784, C, 24915, L, 973, LD
+Doncaster North, 11687, C, 25711, L, 2738, UKIP, 706, LD
+Don Valley, 19182, C, 24351, L, 856, LD
+Dover, 27211, C, 20774, L, 1722, UKIP, 1336, LD, 923, G
+Dudley North, 18068, C, 18090, L, 2144, UKIP, 368, LD, 240, G
+Dudley South, 21588, C, 13858, L, 1791, UKIP, 625, LD, 382, G
+Dulwich and West Norwood, 10940, C, 39096, L, 4475, LD, 1408, G
+Dumfries and Galloway, 22344, C, 10775, L, 1241, LD, 16701, SNP
+Dumfriesshire, Clydesdale and Tweeddale, 24177, C, 8102, L, 1949, LD, 14736, SNP
+Dundee East, 11746, C, 11176, L, 1615, LD, 18391, SNP
+Dundee West, 6257, C, 12783, L, 1189, LD, 18045, SNP
+Dunfermline and West Fife, 12593, C, 17277, L, 3019, LD, 18121, SNP
+Dwyfor Meirionnydd, 8837, C, 6273, L, 614, UKIP, 937, LD
+Ealing Central and Acton, 19230, C, 33037, L, 3075, LD
+Ealing North, 14942, C, 34635, L, 921, UKIP, 1275, LD, 743, G
+Ealing, Southall, 9630, C, 31720, L, 504, UKIP, 1892, LD, 1037, G
+Easington, 8260, C, 23152, L, 1727, UKIP, 460, LD, 410, G
+East Antrim, 963, C
+Eastbourne, 25315, C, 4671, L, 26924, LD, 510, G
+East Devon, 29306, C, 6857, L, 1203, UKIP, 1468, LD
+East Dunbartonshire, 7563, C, 7531, L, 21023, LD, 15684, SNP
+East Ham, 7241, C, 47124, L, 697, UKIP, 656, LD, 474, G
+East Hampshire, 35263, C, 9411, L, 8403, LD, 1760, G
+East Kilbride, Strathaven and Lesmahagow, 13704, C, 17157, L, 628, UKIP, 1590, LD, 21023, SNP
+Eastleigh, 28889, C, 11454, L, 1477, UKIP, 14710, LD, 750, G
+East Londonderry, 330, C
+East Lothian, 16540, C, 20158, L, 1738, LD, 17075, SNP
+East Renfrewshire, 21496, C, 14346, L, 1112, LD, 16784, SNP
+East Surrey, 35310, C, 11396, L, 2227, UKIP, 6197, LD, 1100, G
+East Worthing and Shoreham, 25988, C, 20882, L, 1444, UKIP, 2523, LD, 1273, G
+East Yorkshire, 31442, C, 16436, L, 1986, UKIP, 2134, LD, 943, G
+Eddisbury, 29192, C, 17250, L, 1109, UKIP, 2804, LD, 785, G
+Edinburgh East, 8081, C, 15084, L, 1849, LD, 18509, SNP
+Edinburgh North and Leith, 15385, C, 17618, L, 2579, LD, 1727, G, 19243, SNP
+Edinburgh South, 9428, C, 26269, L, 1388, LD, 10755, SNP
+Edinburgh South West, 16478, C, 13213, L, 2124, LD, 17575, SNP
+Edinburgh West, 11559, C, 7876, L, 18108, LD, 15120, SNP
+Edmonton, 10106, C, 31221, L, 860, UKIP, 858, LD, 633, G
+Ellesmere Port and Neston, 18747, C, 30137, L, 821, UKIP, 892, LD, 342, G
+Elmet and Rothwell, 32352, C, 22547, L, 2606, LD, 995, G
+Eltham, 18832, C, 25128, L, 1457, LD
+Enfield North, 17930, C, 28177, L, 848, UKIP, 1036, LD, 574, G
+Enfield, Southgate, 20634, C, 24989, L, 1925, LD, 780, G
+Epping Forest, 31462, C, 13219, L, 1871, UKIP, 2884, LD, 1233, G
+Epsom and Ewell, 35313, C, 14838, L, 7401, LD, 1714, G
+Erewash, 25939, C, 21405, L, 1243, LD, 675, G
+Erith and Thamesmead, 15571, C, 25585, L, 1728, UKIP, 750, LD, 507, G
+Esher and Walton, 35071, C, 11773, L, 1034, UKIP, 10374, LD, 1074, G
+Exeter, 18219, C, 34336, L, 1562, LD, 1027, G
+Falkirk, 14088, C, 16029, L, 712, UKIP, 1120, LD, 908, G, 20952, SNP
+Fareham, 35915, C, 14360, L, 1541, UKIP, 3896, LD, 1302, G
+Faversham and Mid Kent, 30390, C, 12977, L, 1702, UKIP, 3249, LD, 1431, G
+Feltham and Heston, 16859, C, 32462, L, 1510, UKIP, 1387, LD, 809, G
+Fermanagh and South Tyrone, 423, G
+Filton and Bradley Stoke, 25339, C, 21149, L, 3052, LD, 1162, G
+Finchley and Golders Green, 24599, C, 22942, L, 462, UKIP, 3463, LD, 919, G
+Folkestone and Hythe, 32197, C, 16786, L, 2565, UKIP, 4222, LD, 2498, G
+Forest Of Dean, 28096, C, 18594, L, 1237, UKIP, 2029, LD, 1241, G
+Foyle
+Fylde, 27334, C, 15529, L, 2341, LD, 1263, G
+Gainsborough, 31790, C, 14767, L, 3630, LD, 1238, G
+Garston and Halewood, 9450, C, 41599, L, 1723, LD, 750, G
+Gateshead, 10076, C, 27426, L, 2281, UKIP, 1709, LD, 611, G
+Gedling, 22139, C, 26833, L, 1143, UKIP, 1052, LD, 515, G
+Gillingham and Rainham, 27091, C, 17661, L, 2097, UKIP, 1372, LD, 520, G
+Glasgow Central, 5014, C, 13829, L, 1045, LD, 16096, SNP
+Glasgow East, 6816, C, 13949, L, 504, UKIP, 567, LD, 14024, SNP
+Glasgow North, 4935, C, 11537, L, 1153, LD, 3251, G, 12597, SNP
+Glasgow North East, 4106, C, 13637, L, 637, LD, 13395, SNP
+Glasgow North West, 7002, C, 13947, L, 1387, LD, 16508, SNP
+Glasgow South, 8506, C, 16285, L, 1447, LD, 18312, SNP
+Glasgow South West, 5524, C, 14326, L, 481, UKIP, 661, LD, 14386, SNP
+Glenrothes, 7876, C, 14024, L, 1208, LD, 17291, SNP
+Gloucester, 27208, C, 21688, L, 1495, UKIP, 2716, LD, 754, G
+Gordon, 21861, C, 6340, L, 6230, LD, 19254, SNP
+Gosport, 30647, C, 13436, L, 1790, UKIP, 2328, LD, 1024, G
+Gower, 19458, C, 22727, L, 642, UKIP, 931, LD
+Grantham and Stamford, 35090, C, 14996, L, 1745, UKIP, 3120, LD, 782, G
+Gravesham, 27237, C, 17890, L, 1742, UKIP, 1210, LD, 723, G
+Great Grimsby, 14980, C, 17545, L, 1648, UKIP, 954, LD
+Great Yarmouth, 23901, C, 15928, L, 2767, UKIP, 987, LD, 563, G
+Greenwich and Woolwich, 13501, C, 34215, L, 3785, LD, 1605, G
+Guildford, 30295, C, 10545, L, 13255, LD, 1152, G
+Hackney North and Stoke Newington, 7126, C, 42265, L, 3817, LD, 2606, G
+Hackney South and Shoreditch, 6043, C, 43974, L, 3168, LD, 1522, G
+Halesowen and Rowley Regis, 23012, C, 17759, L, 2126, UKIP, 859, LD, 440, G
+Halifax, 20131, C, 25507, L, 1568, UKIP, 1070, LD
+Haltemprice and Howden, 31355, C, 15950, L, 2482, LD, 711, G
+Halton, 10710, C, 36115, L, 1488, UKIP, 896, LD
+Hammersmith, 14724, C, 33375, L, 507, UKIP, 2802, LD, 800, G
+Hampstead and Kilburn, 18904, C, 34464, L, 4100, LD, 742, G
+Harborough, 30135, C, 17706, L, 1361, UKIP, 7286, LD, 1110, G
+Harlow, 24230, C, 17199, L, 1787, UKIP, 970, LD, 660, G
+Harrogate and Knaresborough, 31477, C, 11395, L, 13309, LD
+Harrow East, 25129, C, 23372, L, 1573, LD, 771, G
+Harrow West, 17326, C, 30640, L, 470, UKIP, 1267, LD, 652, G
+Hartlepool, 14319, C, 21969, L, 4801, UKIP, 746, LD
+Harwich and North Essex, 29921, C, 15565, L, 1685, UKIP, 2787, LD, 1042, G
+Hastings and Rye, 25668, C, 25322, L, 1479, UKIP, 1885, LD
+Havant, 27676, C, 11720, L, 2011, UKIP, 2801, LD, 1122, G
+Hayes and Harlington, 13681, C, 31796, L, 1153, UKIP, 601, LD, 571, G
+Hazel Grove, 20047, C, 9036, L, 14533, LD, 516, G
+Hemel Hempstead, 28735, C, 19290, L, 3233, LD, 1024, G
+Hemsworth, 15566, C, 25740, L, 2591, UKIP, 912, LD
+Hendon, 25078, C, 24006, L, 568, UKIP, 1985, LD, 578, G
+Henley, 33749, C, 11455, L, 1154, UKIP, 8485, LD, 1864, G
+Hereford and South Herefordshire, 27004, C, 11991, L, 1153, UKIP, 3556, LD, 1220, G
+Hertford and Stortford, 36184, C, 17149, L, 4845, LD, 1814, G
+Hertsmere, 31928, C, 14977, L, 1564, UKIP, 2794, LD, 990, G
+Hexham, 24996, C, 15760, L, 930, UKIP, 3285, LD, 1253, G
+Heywood and Middleton, 18961, C, 26578, L, 3239, UKIP, 1087, LD
+High Peak, 24431, C, 26753, L, 2669, LD
+Hitchin and Harpenden, 31189, C, 19158, L, 6236, LD, 1329, G
+Holborn and St Pancras, 10834, C, 41343, L, 727, UKIP, 4020, LD, 1980, G
+Hornchurch and Upminster, 33750, C, 16027, L, 3502, UKIP, 1371, LD, 1077, G
+Hornsey and Wood Green, 9246, C, 40738, L, 429, UKIP, 10000, LD, 1181, G
+Horsham, 36906, C, 13422, L, 1533, UKIP, 7644, LD, 1844, G
+Houghton and Sunderland South, 12324, C, 24665, L, 2379, UKIP, 908, LD, 725, G
+Hove, 18185, C, 36942, L, 1311, LD, 971, G
+Huddersfield, 14465, C, 26470, L, 1155, LD, 1395, G
+Huntingdon, 32915, C, 18440, L, 2180, UKIP, 5090, LD, 1095, G
+Hyndburn, 18305, C, 24120, L, 1953, UKIP, 824, LD
+Ilford North, 20950, C, 30589, L, 1034, LD
+Ilford South, 12077, C, 43724, L, 477, UKIP, 772, LD, 542, G
+Inverclyde, 8399, C, 14666, L, 978, LD, 15050, SNP
+Inverness, Nairn, Badenoch and Strathspey, 16118, C, 8552, L, 6477, LD, 21042, SNP
+Ipswich, 23393, C, 24224, L, 1372, UKIP, 1187, LD, 840, G
+Isle Of Wight, 38190, C, 17121, L, 1921, UKIP, 2740, LD, 12915, G
+Islington North, 6871, C, 40086, L, 413, UKIP, 4946, LD, 2229, G
+Islington South and Finsbury, 9925, C, 30188, L, 929, UKIP, 5809, LD, 1198, G
+Islwyn, 9826, C, 21238, L, 1605, UKIP, 685, LD
+Jarrow, 10757, C, 28020, L, 2338, UKIP, 1163, LD, 745, G
+Keighley, 23817, C, 24056, L, 1291, UKIP, 1226, LD, 790, G
+Kenilworth and Southam, 31207, C, 13131, L, 929, UKIP, 4921, LD, 1133, G
+Kensington, 16313, C, 16333, L, 4724, LD, 767, G
+Kettering, 28616, C, 18054, L, 1618, LD, 1116, G
+Kilmarnock and Loudoun, 12404, C, 13421, L, 994, LD, 19690, SNP
+Kingston and Surbiton, 23686, C, 9203, L, 675, UKIP, 27810, LD, 536, G
+Kingston upon Hull East, 10959, C, 21355, L, 2573, UKIP, 1258, LD, 493, G
+Kingston upon Hull North, 9363, C, 23685, L, 1601, UKIP, 1869, LD, 604, G
+Kingston upon Hull West and Hessle, 10317, C, 18342, L, 1399, UKIP, 2210, LD, 332, G
+Kingswood, 26754, C, 19254, L, 1749, LD, 984, G
+Kirkcaldy and Cowdenbeath, 10762, C, 17016, L, 540, UKIP, 1118, LD, 16757, SNP
+Knowsley, 5137, C, 47351, L, 1285, UKIP, 1189, LD, 521, G
+Lagan Valley, 462, C
+Lanark and Hamilton East, 16178, C, 16084, L, 550, UKIP, 1214, LD, 16444, SNP
+Lancaster and Fleetwood, 18681, C, 25342, L, 1170, LD, 796, G
+Leeds Central, 9755, C, 33453, L, 2056, UKIP, 1063, LD, 1189, G
+Leeds East, 12676, C, 25428, L, 1742, UKIP, 739, LD, 434, G
+Leeds North East, 16445, C, 33436, L, 1952, LD, 680, G
+Leeds North West, 9097, C, 20416, L, 16192, LD, 582, G
+Leeds West, 11048, C, 27013, L, 1815, UKIP, 905, LD, 1023, G
+Leicester East, 12688, C, 35116, L, 1343, LD, 1070, G
+Leicester South, 10896, C, 37157, L, 1287, LD, 1177, G
+Leicester West, 11763, C, 22823, L, 1406, UKIP, 792, LD, 607, G
+Leigh, 16793, C, 26347, L, 2783, UKIP, 951, LD
+Lewes, 26820, C, 6060, L, 21312, LD
+Lewisham, Deptford, 7562, C, 42461, L, 2911, LD, 1640, G
+Lewisham East, 10859, C, 32072, L, 798, UKIP, 2086, LD, 803, G
+Lewisham West and Penge, 12249, C, 35411, L, 700, UKIP, 3317, LD, 1144, G
+Leyton and Wanstead, 9627, C, 32234, L, 2961, LD, 1351, G
+Lichfield, 34018, C, 15437, L, 2653, LD, 1416, G
+Lincoln, 21795, C, 23333, L, 1287, UKIP, 1284, LD, 583, G
+Linlithgow and East Falkirk, 16311, C, 17469, L, 1926, LD, 20388, SNP
+Liverpool, Riverside, 4652, C, 40599, L, 1187, LD, 1582, G
+Liverpool, Walton, 3624, C, 36175, L, 638, LD, 523, G
+Liverpool, Wavertree, 5251, C, 34717, L, 2858, LD, 598, G
+Liverpool, West Derby, 4463, C, 37371, L, 545, LD, 329, G
+Livingston, 12799, C, 17158, L, 1512, LD, 21036, SNP
+Llanelli, 9544, C, 21568, L, 1331, UKIP, 548, LD
+Loughborough, 27022, C, 22753, L, 1465, UKIP, 1937, LD, 971, G
+Louth and Horncastle, 33733, C, 14092, L, 2460, UKIP, 1990, LD
+Ludlow, 31433, C, 12147, L, 5336, LD, 1054, G
+Luton North, 15401, C, 29765, L, 808, LD, 648, G
+Luton South, 14879, C, 28804, L, 795, UKIP, 1056, LD, 439, G
+Macclesfield, 28595, C, 19987, L, 3350, LD, 1213, G
+Maidenhead, 37718, C, 11261, L, 871, UKIP, 6540, LD, 907, G
+Maidstone and The Weald, 29156, C, 11433, L, 1613, UKIP, 8455, LD, 888, G
+Makerfield, 14703, C, 28245, L, 1322, LD
+Maldon, 34111, C, 10681, L, 1899, UKIP, 2181, LD, 1073, G
+Manchester Central, 7045, C, 38490, L, 1469, UKIP, 1678, LD, 846, G
+Manchester, Gorton, 3355, C, 35085, L, 952, UKIP, 2597, LD, 1038, G
+Manchester, Withington, 5530, C, 38424, L, 8549, LD, 865, G
+Mansfield, 23392, C, 22335, L, 2654, UKIP, 697, LD
+Meon Valley, 35624, C, 9932, L, 1435, UKIP, 5900, LD, 1301, G
+Meriden, 33873, C, 14675, L, 2016, UKIP, 2663, LD, 1416, G
+Merthyr Tydfil and Rhymney, 6073, C, 22407, L, 1484, UKIP, 841, LD
+Mid Bedfordshire, 38936, C, 17953, L, 3788, LD, 1794, G
+Mid Derbyshire, 29513, C, 17897, L, 1793, LD, 1168, G
+Middlesbrough, 9531, C, 23404, L, 1452, UKIP, 368, LD, 250, G
+Middlesbrough South and East Cleveland, 23643, C, 22623, L, 1354, LD
+Mid Dorset and North Poole, 28585, C, 6423, L, 13246, LD
+Midlothian, 11521, C, 16458, L, 1721, LD, 15573, SNP
+Mid Norfolk, 32828, C, 16742, L, 2092, UKIP, 2848, LD, 1158, G
+Mid Sussex, 35082, C, 15409, L, 1251, UKIP, 7855, LD, 1571, G
+Mid Ulster
+Mid Worcestershire, 35967, C, 12641, L, 1660, UKIP, 3450, LD, 1371, G
+Milton Keynes North, 30367, C, 28392, L, 1390, UKIP, 2499, LD, 1107, G
+Milton Keynes South, 30652, C, 28927, L, 1833, UKIP, 1895, LD, 1179, G
+Mitcham and Morden, 11664, C, 33039, L, 1054, UKIP, 1494, LD, 644, G
+Mole Valley, 35092, C, 7864, L, 1352, UKIP, 10955, LD, 1463, G
+Monmouth, 26411, C, 18205, L, 762, UKIP, 2064, LD, 954, G
+Montgomeryshire, 18075, C, 5542, L, 8790, LD, 524, G
+Moray, 22637, C, 5208, L, 1078, LD, 18478, SNP
+Morecambe and Lunesdale, 21773, C, 20374, L, 1333, UKIP, 1699, LD, 478, G
+Morley and Outwood, 26550, C, 24446, L, 1361, LD
+Motherwell and Wishaw, 8490, C, 15832, L, 534, UKIP, 920, LD, 16150, SNP
+Na h-Eileanan An Iar, 2441, C, 5006, L, 250, LD, 6013, SNP
+Neath, 9082, C, 21713, L, 1419, UKIP, 732, LD
+Newark, 34493, C, 16344, L, 1419, UKIP, 2786, LD
+Newbury, 37399, C, 8596, L, 13019, LD, 1531, G
+Newcastle-Under-Lyme, 21094, C, 21124, L, 1624, LD
+Newcastle Upon Tyne Central, 9134, C, 24071, L, 1482, UKIP, 1812, LD, 595, G
+Newcastle Upon Tyne East, 8866, C, 28127, L, 1315, UKIP, 2574, LD, 755, G
+Newcastle Upon Tyne North, 16380, C, 26729, L, 1780, UKIP, 2533, LD, 513, G
+New Forest East, 32162, C, 10167, L, 7786, LD, 1251, G
+New Forest West, 33170, C, 9739, L, 4781, LD, 1454, G
+Newport East, 12801, C, 20804, L, 1180, UKIP, 966, LD
+Newport West, 17065, C, 22723, L, 1100, UKIP, 976, LD, 497, G
+Newry and Armagh
+Newton Abbot, 28635, C, 11475, L, 10601, LD, 926, G
+Normanton, Pontefract and Castleford, 14769, C, 29268, L, 3030, UKIP, 693, LD
+Northampton North, 19065, C, 18258, L, 1404, UKIP, 1015, LD, 636, G
+Northampton South, 19231, C, 18072, L, 1630, UKIP, 1405, LD, 696, G
+North Antrim
+North Ayrshire and Arran, 14818, C, 13040, L, 1124, LD, 18451, SNP
+North Cornwall, 25835, C, 6151, L, 18635, LD
+North Devon, 25517, C, 7063, L, 1187, UKIP, 21185, LD, 753, G
+North Dorset, 36169, C, 10392, L, 7556, LD, 1607, G
+North Down, 941, C, 2549, G
+North Durham, 12978, C, 25917, L, 2408, UKIP, 1981, LD
+North East Bedfordshire, 39139, C, 18277, L, 1896, UKIP, 3693, LD, 1215, G
+North East Cambridgeshire, 34340, C, 13070, L, 2174, UKIP, 2383, LD, 1024, G
+North East Derbyshire, 24783, C, 21923, L, 1565, UKIP, 1390, LD, 719, G
+North East Fife, 10088, C, 4026, L, 13741, LD, 13743, SNP
+North East Hampshire, 37754, C, 9982, L, 1061, UKIP, 6987, LD, 1476, G
+North East Hertfordshire, 32587, C, 15752, L, 4276, LD, 2965, G
+North East Somerset, 28992, C, 18757, L, 4461, LD, 1245, G
+North Herefordshire, 31097, C, 9495, L, 5874, LD, 2771, G
+North Norfolk, 21748, C, 5180, L, 25260, LD
+North Shropshire, 33642, C, 17287, L, 2948, LD, 1722, G
+North Somerset, 33605, C, 16502, L, 5982, LD, 1976, G
+North Swindon, 29431, C, 21096, L, 1564, UKIP, 1962, LD, 858, G
+North Thanet, 27163, C, 16425, L, 2198, UKIP, 1586, LD, 825, G
+North Tyneside, 14172, C, 33456, L, 2101, UKIP, 1494, LD, 669, G
+North Warwickshire, 26860, C, 18350, L, 1028, LD, 940, G
+North West Cambridgeshire, 37529, C, 19521, L, 2518, UKIP, 3168, LD, 1255, G
+North West Durham, 16516, C, 25308, L, 2150, UKIP, 3398, LD, 530, G
+North West Hampshire, 36471, C, 13792, L, 1467, UKIP, 5708, LD, 1334, G
+North West Leicestershire, 31153, C, 17867, L, 3420, LD, 1101, G
+North West Norfolk, 29408, C, 15620, L, 1539, UKIP, 1393, LD, 851, G
+North Wiltshire, 32398, C, 9399, L, 871, UKIP, 9521, LD, 1141, G
+Norwich North, 21900, C, 21393, L, 1480, LD, 782, G
+Norwich South, 15715, C, 31311, L, 2841, LD, 1492, G
+Nottingham East, 8512, C, 28102, L, 817, UKIP, 1003, LD, 698, G
+Nottingham North, 11907, C, 23067, L, 2133, UKIP, 674, LD, 538, G
+Nottingham South, 14851, C, 30013, L, 1103, UKIP, 1564, LD, 598, G
+Nuneaton, 23755, C, 19016, L, 1619, UKIP, 914, LD, 763, G
+Ochil and South Perthshire, 22469, C, 10847, L, 1742, LD, 19110, SNP
+Ogmore, 9354, C, 23225, L, 1235, UKIP, 594, LD
+Old Bexley and Sidcup, 29545, C, 14079, L, 1619, UKIP, 1572, LD, 820, G
+Oldham East and Saddleworth, 17447, C, 25629, L, 2278, UKIP, 1683, LD
+Oldham West and Royton, 12648, C, 29846, L, 1899, UKIP, 956, LD, 439, G
+Orkney and Shetland, 2024, C, 2664, L, 283, UKIP, 11312, LD, 6749, SNP
+Orpington, 31762, C, 12301, L, 2023, UKIP, 3315, LD, 1060, G
+Oxford East, 11834, C, 35118, L, 4904, LD, 1785, G
+Oxford West and Abingdon, 25440, C, 7573, L, 751, UKIP, 26256, LD
+Paisley and Renfrewshire North, 12842, C, 14842, L, 1476, LD, 17455, SNP
+Paisley and Renfrewshire South, 8122, C, 14423, L, 1327, LD, 16964, SNP
+Pendle, 21986, C, 20707, L, 941, LD, 502, G
+Penistone and Stocksbridge, 21485, C, 22807, L, 3453, UKIP, 2042, LD
+Penrith and The Border, 28078, C, 12168, L, 1142, UKIP, 3641, LD, 1029, G
+Perth and North Perthshire, 21783, C, 5349, L, 2589, LD, 21804, SNP
+Peterborough, 22343, C, 22950, L, 1597, LD, 848, G
+Plymouth, Moor View, 23567, C, 18548, L, 1849, UKIP, 917, LD, 536, G
+Plymouth, Sutton and Devonport, 20476, C, 27283, L, 1364, UKIP, 1244, LD, 604, G
+Pontypridd, 10655, C, 22103, L, 1071, UKIP, 1963, LD
+Poole, 28888, C, 14679, L, 4433, LD, 1299, G
+Poplar and Limehouse, 11846, C, 39558, L, 849, UKIP, 3959, LD, 989, G
+Portsmouth North, 25860, C, 15895, L, 1926, UKIP, 2608, LD, 791, G
+Portsmouth South, 16736, C, 18290, L, 1129, UKIP, 7699, LD, 712, G
+Preseli Pembrokeshire, 18302, C, 17988, L, 850, UKIP, 1106, LD
+Preston, 8487, C, 24210, L, 1348, UKIP, 1204, LD, 348, G
+Pudsey, 25550, C, 25219, L, 1761, LD
+Putney, 20679, C, 19125, L, 477, UKIP, 5448, LD, 1107, G
+Rayleigh and Wickford, 36914, C, 13464, L, 2326, UKIP, 1557, LD, 1062, G
+Reading East, 23344, C, 27093, L, 3378, LD, 1093, G
+Reading West, 25311, C, 22435, L, 3041, LD, 979, G
+Redcar, 14138, C, 23623, L, 1950, UKIP, 2849, LD
+Redditch, 23652, C, 16289, L, 1371, UKIP, 1173, LD, 380, G
+Reigate, 30896, C, 13282, L, 1542, UKIP, 5889, LD, 2214, G
+Rhondda, 3333, C, 21096, L, 880, UKIP, 277, LD
+Ribble Valley, 31919, C, 18720, L, 3247, LD, 1314, G
+Richmond Park, 28588, C, 5773, L, 426, UKIP, 28543, LD
+Richmond (Yorks), 36458, C, 13350, L, 3360, LD, 1739, G
+Rochdale, 14216, C, 29035, L, 1641, UKIP, 4027, LD
+Rochester and Strood, 29232, C, 19382, L, 2893, UKIP, 1189, LD, 781, G
+Rochford and Southend East, 23013, C, 17465, L, 1777, UKIP, 1265, LD, 804, G
+Romford, 29671, C, 15893, L, 2350, UKIP, 1215, LD, 815, G
+Romsey and Southampton North, 28668, C, 9614, L, 10622, LD, 953, G
+Rossendale and Darwen, 25499, C, 22283, L, 1550, LD, 824, G
+Ross, Skye and Lochaber, 9561, C, 4695, L, 8042, LD, 15480, SNP
+Rotherham, 10017, C, 21404, L, 3316, UKIP, 1754, LD
+Rother Valley, 19939, C, 23821, L, 3704, UKIP, 1155, LD, 869, G
+Rugby, 27872, C, 19660, L, 2851, LD, 953, G
+Ruislip, Northwood and Pinner, 30555, C, 16575, L, 1171, UKIP, 3813, LD, 1268, G
+Runnymede and Weybridge, 31436, C, 13386, L, 1675, UKIP, 3765, LD, 1347, G
+Rushcliffe, 30223, C, 22213, L, 1490, UKIP, 2759, LD, 1626, G
+Rutherglen and Hamilton West, 9941, C, 19101, L, 465, UKIP, 2158, LD, 18836, SNP
+Rutland and Melton, 36169, C, 13065, L, 1869, UKIP, 4711, LD, 1755, G
+Saffron Walden, 37629, C, 12663, L, 2091, UKIP, 8528, LD
+Salford and Eccles, 12036, C, 31168, L, 2320, UKIP, 1286, LD, 809, G
+Salisbury, 30952, C, 13619, L, 1191, UKIP, 5982, LD, 1152, G
+Scarborough and Whitby, 24401, C, 20966, L, 1682, UKIP, 1354, LD, 915, G
+Scunthorpe, 17485, C, 20916, L, 1247, UKIP, 554, LD
+Sedgefield, 16143, C, 22202, L, 1763, UKIP, 797, LD, 686, G
+Sefton Central, 17212, C, 32830, L, 1381, LD, 656, G
+Selby and Ainsty, 32921, C, 19149, L, 1713, UKIP, 2293, LD
+Sevenoaks, 32644, C, 10727, L, 1894, UKIP, 4280, LD, 1673, G
+Sheffield, Brightside and Hillsborough, 9050, C, 28193, L, 2645, UKIP, 1061, LD, 737, G
+Sheffield Central, 6215, C, 33963, L, 1060, UKIP, 2465, LD, 3848, G
+Sheffield, Hallam, 13561, C, 21881, L, 929, UKIP, 19756, LD, 823, G
+Sheffield, Heeley, 12696, C, 26524, L, 1977, UKIP, 2022, LD, 943, G
+Sheffield South East, 13722, C, 25520, L, 2820, UKIP, 1432, LD
+Sherwood, 27492, C, 22294, L, 1801, UKIP, 1113, LD, 664, G
+Shipley, 27417, C, 22736, L, 2202, LD
+Shrewsbury and Atcham, 29073, C, 22446, L, 1363, UKIP, 4254, LD, 1067, G
+Sittingbourne and Sheppey, 30911, C, 15700, L, 1392, LD, 558, G
+Skipton and Ripon, 36425, C, 16440, L, 3734, G
+Sleaford and North Hykeham, 42245, C, 17008, L, 1954, UKIP, 2722, LD, 968, G
+Slough, 17172, C, 34170, L, 1228, UKIP, 1308, LD
+Solihull, 32985, C, 12414, L, 1291, UKIP, 8901, LD, 1157, G
+Somerton and Frome, 36231, C, 10998, L, 13325, LD, 2347, G
+Southampton, Itchen, 21773, C, 21742, L, 1122, UKIP, 1421, LD, 725, G
+Southampton, Test, 16006, C, 27509, L, 1892, LD
+South Antrim
+South Basildon and East Thurrock, 26811, C, 15321, L, 3193, UKIP, 732, LD, 680, G
+South Cambridgeshire, 33631, C, 17679, L, 12102, LD, 1512, G
+South Derbyshire, 30907, C, 18937, L, 1870, LD, 917, G
+South Dorset, 29135, C, 17440, L, 3053, LD, 2278, G
+South Down
+South East Cambridgeshire, 33601, C, 17443, L, 11958, LD
+South East Cornwall, 29493, C, 12050, L, 10346, LD, 1335, G
+Southend West, 26046, C, 16046, L, 1666, UKIP, 2110, LD, 831, G
+South Holland and The Deepings, 35179, C, 10282, L, 2185, UKIP, 1433, LD, 894, G
+South Leicestershire, 34795, C, 16164, L, 2235, UKIP, 2403, LD, 1092, G
+South Norfolk, 35580, C, 18902, L, 5074, LD, 1555, G
+South Northamptonshire, 40599, C, 17759, L, 1363, UKIP, 3623, LD, 1357, G
+Southport, 18541, C, 15627, L, 1127, UKIP, 12661, LD
+South Ribble, 28980, C, 21559, L, 1387, UKIP, 2073, LD, 494, G
+South Shields, 10570, C, 25078, L, 3006, UKIP, 681, LD, 1437, G
+South Staffordshire, 35656, C, 12923, L, 1348, LD, 1182, G
+South Suffolk, 32829, C, 15080, L, 1449, UKIP, 3154, LD, 1723, G
+South Swindon, 24809, C, 22345, L, 1291, UKIP, 2079, LD, 747, G
+South Thanet, 25262, C, 18875, L, 2997, UKIP, 1514, LD, 809, G
+South West Bedfordshire, 32961, C, 18793, L, 2630, LD, 950, G
+South West Devon, 31634, C, 15818, L, 1540, UKIP, 2732, LD, 1133, G
+South West Hertfordshire, 35128, C, 15578, L, 1293, UKIP, 7078, LD, 1576, G
+South West Norfolk, 32894, C, 14582, L, 2575, UKIP, 2365, LD
+South West Surrey, 33683, C, 7606, L, 1083, UKIP, 5967, LD
+South West Wiltshire, 32841, C, 14515, L, 5360, LD, 1445, G
+Spelthorne, 28692, C, 15267, L, 2296, UKIP, 2755, LD, 1105, G
+Stafford, 28424, C, 20695, L, 1540, LD, 1265, G
+Staffordshire Moorlands, 25963, C, 15133, L, 1494, LD, 541, G
+St Albans, 24571, C, 13137, L, 18462, LD, 828, G
+Stalybridge and Hyde, 16193, C, 24277, L, 996, LD, 991, G
+St Austell and Newquay, 26856, C, 15714, L, 11642, LD
+Stevenage, 24798, C, 21412, L, 2032, LD, 1085, G
+St Helens North, 13606, C, 32012, L, 2097, UKIP, 1287, LD, 1220, G
+St Helens South and Whiston, 11536, C, 35879, L, 1953, UKIP, 2101, LD, 1417, G
+Stirling, 18291, C, 10902, L, 1683, LD, 18143, SNP
+St Ives, 22120, C, 7298, L, 21808, LD
+Stockport, 11805, C, 26282, L, 1088, UKIP, 1778, LD, 591, G
+Stockton North, 15589, C, 24304, L, 1834, UKIP, 646, LD, 358, G
+Stockton South, 25214, C, 26102, L, 1186, UKIP, 951, LD, 371, G
+Stoke-On-Trent Central, 13186, C, 17083, L, 1608, UKIP, 680, LD, 378, G
+Stoke-On-Trent North, 18913, C, 21272, L, 916, LD, 685, G
+Stoke-On-Trent South, 20451, C, 19788, L, 808, LD, 643, G
+Stone, 31614, C, 14119, L, 1370, UKIP, 2222, LD, 707, G
+Stourbridge, 25706, C, 18052, L, 1801, UKIP, 1083, LD, 493, G
+Strangford, 507, C, 607, G
+Stratford-On-Avon, 33657, C, 11699, L, 6357, LD, 1345, G
+Streatham, 11927, C, 38212, L, 349, UKIP, 3611, LD, 1696, G
+Stretford and Urmston, 13814, C, 33519, L, 1094, UKIP, 1001, LD, 641, G
+Stroud, 29307, C, 29994, L, 1039, UKIP, 2053, LD, 1423, G
+Suffolk Coastal, 33713, C, 17701, L, 4048, LD, 1802, G
+Sunderland Central, 15059, C, 25056, L, 2209, UKIP, 1777, LD, 705, G
+Surrey Heath, 37118, C, 12175, L, 6271, LD, 2258, G
+Sutton and Cheam, 26567, C, 10663, L, 13869, LD, 871, G
+Sutton Coldfield, 32224, C, 16885, L, 2302, LD, 965, G
+Swansea East, 9139, C, 22307, L, 1040, UKIP, 625, LD, 359, G
+Swansea West, 11680, C, 22278, L, 1269, LD, 434, G
+Tamworth, 28748, C, 16401, L, 1961, LD
+Tatton, 28764, C, 13977, L, 4431, LD, 1024, G
+Taunton Deane, 33333, C, 9689, L, 1434, UKIP, 17446, LD, 1151, G
+Telford, 21777, C, 21057, L, 954, LD, 898, G
+Tewkesbury, 35448, C, 12874, L, 1205, UKIP, 7981, LD, 1576, G
+The Cotswolds, 36201, C, 10702, L, 1197, UKIP, 9748, LD, 1747, G
+The Wrekin, 27451, C, 17887, L, 1656, UKIP, 1345, LD, 804, G
+Thirsk and Malton, 33572, C, 14571, L, 1532, UKIP, 3859, LD, 1100, G
+Thornbury and Yate, 28008, C, 6112, L, 15937, LD, 633, G
+Thurrock, 19880, C, 19535, L, 10112, UKIP, 798, LD
+Tiverton and Honiton, 35471, C, 15670, L, 4639, LD, 2035, G
+Tonbridge and Malling, 36218, C, 12710, L, 1857, UKIP, 3787, LD, 2335, G
+Tooting, 19236, C, 34694, L, 339, UKIP, 3057, LD, 845, G
+Torbay, 27141, C, 9310, L, 1213, UKIP, 12858, LD, 652, G
+Torfaen, 11894, C, 22134, L, 1490, UKIP, 852, LD
+Torridge and West Devon, 33612, C, 12926, L, 10526, LD, 1622, G
+Totnes, 26972, C, 13495, L, 1240, UKIP, 6466, LD, 2097, G
+Tottenham, 5665, C, 40249, L, 462, UKIP, 1687, LD, 1276, G
+Truro and Falmouth, 25123, C, 21331, L, 897, UKIP, 8465, LD, 831, G
+Tunbridge Wells, 30856, C, 14391, L, 1464, UKIP, 5355, LD, 1441, G
+Twickenham, 25207, C, 6114, L, 34969, LD
+Tynemouth, 20729, C, 32395, L, 1257, UKIP, 1724, LD, 629, G
+Upper Bann
+Uxbridge and South Ruislip, 23716, C, 18682, L, 1577, UKIP, 1835, LD, 884, G
+Vale Of Clwyd, 17044, C, 19423, L, 666, LD
+Vale Of Glamorgan, 25501, C, 23311, L, 868, UKIP, 1020, LD, 419, G
+Vauxhall, 10277, C, 31576, L, 11326, LD, 1152, G
+Wakefield, 20811, C, 22987, L, 943, LD
+Wallasey, 11232, C, 34552, L, 1160, UKIP, 772, LD, 637, G
+Walsall North, 18919, C, 16318, L, 2295, UKIP, 586, LD
+Walsall South, 16394, C, 25286, L, 1805, UKIP, 587, LD
+Walthamstow, 6776, C, 38793, L, 1384, LD, 1190, G
+Wansbeck, 13903, C, 24338, L, 1483, UKIP, 2015, LD, 715, G
+Wantage, 34459, C, 17079, L, 1284, UKIP, 9234, LD, 1546, G
+Warley, 10521, C, 27004, L, 1349, UKIP, 777, LD, 555, G
+Warrington North, 17774, C, 27356, L, 1561, UKIP, 1207, LD, 619, G
+Warrington South, 27445, C, 29994, L, 3339, LD
+Warwick and Leamington, 24021, C, 25227, L, 799, UKIP, 2810, LD, 1198, G
+Washington and Sunderland West, 11699, C, 24639, L, 2761, UKIP, 961, LD, 514, G
+Watford, 26731, C, 24639, L, 1184, UKIP, 5335, LD, 721, G
+Waveney, 28643, C, 19428, L, 1933, UKIP, 1012, LD, 1332, G
+Wealden, 37027, C, 13399, L, 1798, UKIP, 6281, LD, 1959, G
+Weaver Vale, 22138, C, 26066, L, 1623, LD, 786, G
+Wellingborough, 30579, C, 18119, L, 1804, UKIP, 1782, LD, 956, G
+Wells, 30488, C, 7129, L, 22906, LD
+Welwyn Hatfield, 26374, C, 19005, L, 1441, UKIP, 3836, LD, 835, G
+Wentworth and Dearne, 13744, C, 28547, L, 1656, LD
+West Aberdeenshire and Kincardine, 24704, C, 5706, L, 4461, LD, 16754, SNP
+West Bromwich East, 14951, C, 22664, L, 625, LD, 533, G
+West Bromwich West, 14329, C, 18789, L, 2320, UKIP, 333, LD, 323, G
+West Dorset, 33081, C, 10896, L, 13990, LD, 1631, G
+West Dunbartonshire, 7582, C, 16602, L, 1009, LD, 18890, SNP
+West Ham, 9837, C, 46591, L, 1134, UKIP, 1836, LD, 957, G
+West Lancashire, 20341, C, 32030, L, 1069, LD, 680, G
+Westminster North, 14422, C, 25934, L, 2253, LD, 595, G
+Westmorland and Lonsdale, 22909, C, 4783, L, 23686, LD
+Weston-Super-Mare, 29982, C, 18438, L, 1932, UKIP, 5175, LD, 888, G
+West Suffolk, 31649, C, 14586, L, 2396, UKIP, 2180, LD, 935, G
+West Tyrone, 427, G
+West Worcestershire, 34703, C, 13375, L, 1481, UKIP, 5307, LD, 1605, G
+Wigan, 13548, C, 29575, L, 2750, UKIP, 916, LD, 753, G
+Wimbledon, 23946, C, 18324, L, 553, UKIP, 7472, LD, 1231, G
+Winchester, 29729, C, 6007, L, 695, UKIP, 19730, LD, 846, G
+Windsor, 34718, C, 12334, L, 5434, LD, 1435, G
+Wirral South, 17548, C, 25871, L, 1322, LD, 454, G
+Wirral West, 18501, C, 23866, L, 1155, LD, 429, G
+Witham, 31670, C, 13024, L, 2715, LD, 1832, G
+Witney, 33839, C, 12598, L, 980, UKIP, 12457, LD, 1053, G
+Woking, 29903, C, 13179, L, 1161, UKIP, 9711, LD, 1092, G
+Wokingham, 33806, C, 15008, L, 9512, LD, 1364, G
+Wolverhampton North East, 14695, C, 19282, L, 1479, UKIP, 570, LD, 482, G
+Wolverhampton South East, 12623, C, 21137, L, 1675, UKIP, 448, LD, 421, G
+Wolverhampton South West, 18714, C, 20899, L, 1012, UKIP, 784, LD, 579, G
+Worcester, 24731, C, 22223, L, 1354, UKIP, 1757, LD, 1211, G
+Workington, 17392, C, 21317, L, 1556, UKIP, 1133, LD
+Worsley and Eccles South, 17667, C, 26046, L, 1087, LD, 842, G
+Worthing West, 30181, C, 18091, L, 1635, UKIP, 2982, LD, 1614, G
+Wrexham, 15321, C, 17153, L, 865, LD
+Wycombe, 26766, C, 20188, L, 1210, UKIP, 4147, LD, 1182, G
+Wyre and Preston North, 30684, C, 18438, L, 2551, LD, 973, G
+Wyre Forest, 29859, C, 16525, L, 1777, UKIP, 1943, LD, 1025, G
+Wythenshawe and Sale East, 13581, C, 28525, L, 1475, UKIP, 1504, LD, 576, G
+Yeovil, 32369, C, 7418, L, 17646, LD, 1052, G
+Ynys Mon, 10384, C, 15643, L, 624, UKIP, 479, LD
+York Central, 16019, C, 34594, L, 2475, LD
+York Outer, 29356, C, 21067, L, 5910, LD, 1094, G

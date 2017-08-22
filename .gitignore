@@ -8,6 +8,10 @@ dist
 *.egg-info
 .eggs
 
+# Tests, etc
+.coverage
+htmlcov
+
 # DB
 *.sqlite
 
