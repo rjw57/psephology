@@ -14,10 +14,8 @@ install_requires = '''
 '''.split()
 
 tests_require = '''
-    flask-fixtures
     flask-testing
     nose
-    pyyaml
 '''.split()
 
 setup(
