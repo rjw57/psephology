@@ -197,7 +197,7 @@ let's allow the Liberal Democrats to win Cambridge:
     }
 
 Looking at the party totals, we see that Labour have lost one seat and the
-Liberal Democrats have gained on:
+Liberal Democrats have gained one:
 
 .. code:: console
 
