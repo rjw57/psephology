@@ -1,3 +1,11 @@
+"""
+The :py:mod:`.model` module defines the basic data model used by Psephology
+along with some utility functions which can be used to mutate it. The
+:py:mod:`.query` module contains some potted queries for this data model which
+provide useful summaries.
+
+"""
+
 from sqlite3 import Connection as SQLite3Connection
 
 from flask_migrate import Migrate
@@ -19,6 +27,18 @@ class Party(db.Model):
     """A political party. Each party is primarily keyed by its abbreviation. In
     addition, the name of a political party should be unique.
 
+    .. py:attribute:: id
+
+        String primary key. This is the party "code" such as "C" or "LD".
+
+    .. py:attribute:: name
+
+        Human-readable "long" name for the party.
+
+    .. py:attribute:: votings
+
+        Sequence of :py:class:`.Voting` instances associated with this party.
+
     """
     __tablename__ = 'parties'
 
@@ -31,6 +51,19 @@ class Constituency(db.Model):
     """A constituency. Essentially this is a mapping between a numeric id and a
     human-friendly name.
 
+    .. py:attribute:: id
+
+        Integer primary key.
+
+    .. py:attribute:: name
+
+        Human-readable name
+
+    .. py:attribute:: votings
+
+        Sequence of :py:class:`.Voting` instances associated with this
+        constituency..
+
     """
     __tablename__ = 'constituencies'
 
@@ -42,6 +75,30 @@ class Constituency(db.Model):
 class Voting(db.Model):
     """A record of a number of votes cast for a particular party within a
     constituency.
+
+    .. py:attribute:: id
+
+        Integer primary key.
+
+    .. py:attribute:: count
+
+        Number of votes cast
+
+    .. py:attribute:: constituency_id
+
+        Integer primary key id of associated constituency.
+
+    .. py:attribute:: constituency
+
+        :py:class:`.Constituency` instance for associated constituency.
+
+    .. py:attribute:: party_id
+
+        String primary key id of associated party.
+
+    .. py:attribute:: party
+
+        :py:class:`.Party` instance for associated party.
 
     """
     __tablename__ = 'votings'

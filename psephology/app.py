@@ -1,3 +1,9 @@
+"""
+The :py:mod:`.app` module provides support for creating Flask Application
+objects.
+
+"""
+
 from flask import Flask
 
 from .api import blueprint as api
@@ -6,6 +12,15 @@ from .model import db, migrate
 from .cli import cli
 
 def create_app(config_filename=None, config_object=None):
+    """
+    Create a new application object. The database and CLI are automatically
+    wired up. If ``config_filename`` or ``config_object`` are not ``None`` they
+    are passed to :py:func:`app.config.from_pyfile` and
+    :py:func:`app.config.from_object` respectively.
+
+    Returns the newly created application object.
+
+    """
     app = Flask(__name__)
 
     app.config.from_object('psephology.config.default')

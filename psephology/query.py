@@ -1,5 +1,6 @@
 """
-Some potted database queries
+The :py:mod:`.query` module provides some ready-to-use queries which can be run
+against the database.
 
 """
 from sqlalchemy import func

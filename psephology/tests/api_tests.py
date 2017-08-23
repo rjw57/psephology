@@ -15,6 +15,18 @@ class StatsAPITests(TestCase):
         r = self.client.get('/api/stats').json
         self.assertEqual(r.get('constituency_count'), 1)
 
+class PartyTotalsAPITests(TestCase):
+    def test_basic_usage(self):
+        """Calling the API succeeds."""
+        r = self.client.get('/api/party_totals')
+        self.assertEqual(r.status_code, 200)
+
+class ConstituenciesAPITests(TestCase):
+    def test_basic_usage(self):
+        """Calling the API succeeds."""
+        r = self.client.get('/api/constituencies')
+        self.assertEqual(r.status_code, 200)
+
 class ImportAPITests(TestCase):
     def setUp(self):
         super(ImportAPITests, self).setUp()

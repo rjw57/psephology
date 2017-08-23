@@ -1,5 +1,6 @@
 """
-Conversion to and from various formats for import/export.
+The :py:mod:`.io` module provides functions which can be used to parse external
+data formats used by Psephology.
 
 """
 
