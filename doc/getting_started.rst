@@ -285,7 +285,7 @@ Liberal Democrats have gained one:
 Building the documentation
 ``````````````````````````
 
-The documentation is built with the ``sphix`` tool and has additional
+The documentation is built with the ``sphinx`` tool and has additional
 requirements. You can install the requirements and build the documentation via:
 
 .. code:: console
