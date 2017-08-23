@@ -1,3 +1,4 @@
+from io import BytesIO
 from bs4 import BeautifulSoup
 
 from psephology.model import db, add_constituency_result_line, log
@@ -67,3 +68,30 @@ class UITests(TestCase):
         soup = BeautifulSoup(r.data, 'html.parser')
         self.assertIs(soup.find(id='no-results'), None)
         self.assertIsNot(soup.find(id='log'), None)
+
+    def test_export(self):
+        """Can get back a line from export."""
+        add_constituency_result_line('X, 10, C')
+        r = self.client.get('/export/results')
+        self.assertEqual(r.status_code, 200)
+        self.assertEqual(r.data.decode('utf8').strip(), 'X, 10, C')
+
+    def test_import(self):
+        """Import form renders"""
+        r = self.client.get('/import')
+        self.assertEqual(r.status_code, 200)
+
+    def test_import_with_bad_utf8(self):
+        """Import results with bad UTF8 gives HTTP 400"""
+        r = self.client.post('/import/results', data={
+            'results': (BytesIO(b'foo\x80'), 'foo.txt'),
+        })
+        self.assertEqual(r.status_code, 400)
+
+    def test_import_results(self):
+        """Import results"""
+        r = self.client.post('/import/results', data={
+            'results': (BytesIO(b'X, 10, C'), 'foo.txt'),
+        })
+        # If import succeeds then there should be a re-direct
+        self.assertEqual(r.status_code, 302)
