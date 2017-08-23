@@ -4,8 +4,21 @@
 Status](https://travis-ci.org/rjw57/psephology.svg?branch=master)](https://travis-ci.org/rjw57/psephology)
 [![Coverage
 Status](https://coveralls.io/repos/github/rjw57/psephology/badge.svg?branch=master)](https://coveralls.io/github/rjw57/psephology?branch=master)
+[![Documentation
+Status](https://readthedocs.org/projects/psephology/badge/?version=latest)](http://psephology.readthedocs.io/en/latest/?badge=latest)
 
-## Development server
+Psephology is an experimental webapp for recording election results. For more
+information take a look at the
+[documentation](http://psephology.readthedocs.io/en/latest/).
+
+## Getting started
+
+The [documentation](http://psephology.readthedocs.io/en/latest/) includes a
+simple getting started guide which covers building a Docker container to host
+the application. The information below is of more use if you are working on the
+project and want to run a local development server.
+
+You need to run ``flask db upgrade`` before running the server:
 
 ```console
 $ export PSEPHOLOGY_CONFIG=$PWD/config.py
@@ -34,20 +47,9 @@ $ flask psephology importresults test-data/ge2017_results.txt
 
 ## Running tests
 
-Tests are run via the ``setup.py`` script.
+Tests are run via the ``setup.py`` script. When the Docker container is built,
+tests are run within it.
 
 ```console
 $ python setup.py test
-```
-
-## Running via Docker
-
-**Note:** these instructions assume [Docker
-machine](https://docs.docker.com/machine/) is in use.
-
-```console
-$ docker build -t psephology .
-$ docker run -it --rm --name psephology-server -p 5000:5000 psephology
-$ docker exec psephology-server flask db upgrade
-$ xdg-open http://$(docker-machine ip):5000
 ```
