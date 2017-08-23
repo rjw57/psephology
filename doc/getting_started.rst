@@ -1,13 +1,57 @@
 Getting started
 ---------------
 
-Installation
-````````````
-
 This section will get you up and running with Psephology. It is assumed that you
 have a working `docker <https://www.docker.com/>`_ installed. It's preferable to
 have `docker-machine <https://docs.docker.com/machine/>`_ installed as well
 because it's awesome.
+
+Docker hub
+``````````
+
+Psephology can be got up and running without needing to clone the source
+repository since there is an `image
+<https://hub.docker.com/r/rjw57/psephology/>`_ on Docker hub which is built
+automatically on each commit to master.
+
+The image is configured to use the SQLite database internally and so should be
+considered an "ephemeral" install in that the database state is not persisted.
+In production, a further Dockerfile would be used which builds on this image and
+adds configuration for a persistent database.
+
+Since docker will automatically pull images not available locally, we can fetch
+and run the Psephology server in one line:
+
+.. code:: console
+
+    $ docker run -it --rm --name psephology-server \
+        -p 5000:5000 rjw57/psephology
+
+Although the container is now running, trying to visit the site will result in
+an error. This is because we've not yet migrated the database to the latest
+version. Database migration is the process of updating the schema to match the
+latest version. It's good practice to have the migration be under the control of
+a separate command so that potentially database changing operations are
+explicit.
+
+The database migration takes one command. In a separate terminal,
+
+.. code:: console
+
+    $ docker exec psephology-server flask db upgrade
+
+Now you should be able to navigate to http://localhost:5000/ and see the app in
+all of its glory. If you're using ``docker-machine``, you'll need to use the
+appropriate IP for the virtual machine:
+
+.. code:: console
+
+    $ xdg-open http://$(docker-machine ip):5000 # Linux-y machines
+    $ open http://$(docker-machine ip):5000     # Mac OS X
+
+
+Installation from source
+````````````````````````
 
 Firstly, clone the Psephology application from GitHub:
 
@@ -16,10 +60,7 @@ Firstly, clone the Psephology application from GitHub:
     $ git clone https://github.com/rjw57/psephology
     $ cd psephology
 
-You could perform a standard ``pip install .`` to install the application but
-we're going to pull the Docker container `image
-<https://hub.docker.com/r/rjw57/psephology/>`_ from Docker hub. Should you need
-to actually build the container, you can do so via:
+Once can now build the Docker container directly from the repo:
 
 .. code:: console
 
@@ -27,29 +68,43 @@ to actually build the container, you can do so via:
 
 As part of the container build, the test suite is run to ensure that the current
 version is runnable inside the container environment. Once the container is
-built, you can run the server via ``docker run``:
+built, you can run the server using ``docker run`` as outlined above.
+
+Alternatively, you can opt for a local install via ``pip``. It is good practice
+to setup a virtualenv first:
 
 .. code:: console
 
-    $ docker run -it --rm --name psephology-server \
-        -p 5000:5000 rjw57/psephology
+    $ virtualenv -p $(which python3) venv
+    $ . ./venv/bin/activate
+    $ pip install -e .
 
-Although the container is now running, trying to visit the site will result in
-an error. This is because we've not yet migrated the datbase to the latest
-version. In a separate terminal, run the database migration:
-
-.. code:: console
-
-    $ docker exec psephology-server flask db upgrade
-
-Now you should be able to navigate to http://localhost:5000/ and see the app in
-all of its glory. If you're using docker-machine, you'll need to use the
-appropriate IP for the virtual machine:
+Once installed, the test suite can be run via ``setup.py``:
 
 .. code:: console
 
-    $ xdg-open http://$(docker-machine ip):5000 # Linux-y machines
-    $ open http://$(docker-machine ip):5000     # Mac OS X
+    $ python setup.py test
+
+Code coverage can be calculated using the ``coverage`` utility:
+
+.. code:: console
+
+    $ pip install coverage
+    $ coverage run setup.py test && coverage report
+
+Migrate the initial database and start the server:
+
+.. code:: console
+
+    $ export PSEPHOLOGY_CONFIG=$PWD/config.py
+    $ export FLASK_APP=psephology.autoapp
+    $ export FLASK_DEBUG=1
+    $ flask db upgrade
+    $ flask run
+
+When installed from source, the server is configured in "debug" mode with the
+Flask debug toolbar inserted into the UI. You should be able to navigate to
+http://localhost:5000/ and use the webapp.
 
 Getting data in
 ```````````````
@@ -226,4 +281,17 @@ Liberal Democrats have gained one:
         }
       }
     }
+
+Building the documentation
+``````````````````````````
+
+The documentation is built with the ``sphix`` tool and has additional
+requirements. You can install the requirements and build the documentation via:
+
+.. code:: console
+
+    $ pip install -r doc/requirements.txt
+    $ make -C doc singlehtml
+    $ xdg-open doc/_build/singlehtml/index.html     # Linux-y
+    $ open doc/_build/singlehtml/index.html         # OS X
 
