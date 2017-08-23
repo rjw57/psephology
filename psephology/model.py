@@ -216,6 +216,12 @@ def import_results(results_file, session=None):
                 line, e.args[0] % e.args[1:], line_idx + 1
             ))
 
+    # Log the fact that this import happened
+    log('\n'.join([
+        'Imported {} result line(s), {} diagnostic(s)'.format(
+            line_idx+1, len(diagnostics)),
+    ] + [str(d) for d in diagnostics]))
+
     return diagnostics
 
 # Ensure that sqlite honours foreign key constraints
