@@ -19,7 +19,7 @@ def parse_result_line(line):
     results = []
 
     # If there is more to parse, there should be at least the constituency name,
-    # a vote count and a party id, i.e. more than three values
+    # a vote count and a party id, i.e. more than two values
     while len(items) > 2:
         party_id = items.pop()
         count_str = items.pop()
