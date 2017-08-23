@@ -6,6 +6,7 @@ provide useful summaries.
 
 """
 
+import datetime
 from sqlite3 import Connection as SQLite3Connection
 
 from flask_migrate import Migrate
@@ -116,6 +117,34 @@ class Voting(db.Model):
         back_populates='votings')
     party = relationship('Party',
         back_populates='votings')
+
+class LogEntry(db.Model):
+    """A record of some log-worthy text.
+
+    .. py:attribute:: id
+
+        Integer primary key.
+
+    .. py:attribute:: created_at
+
+        Date and time at which this entry was created in UTC.
+
+    .. py:attribute:: message
+
+        Textual content of log
+
+    """
+    __tablename__ = 'log_entries'
+
+    id = db.Column(db.Integer, primary_key=True)
+    created_at = db.Column(db.DateTime, nullable=False,
+            default=datetime.datetime.utcnow, index=True)
+    message = db.Column(db.Text)
+
+def log(message):
+    """Convenience function to log a message to the database."""
+    db.session.add(LogEntry(message=message))
+    db.session.commit()
 
 def add_constituency_result_line(line, session=None):
     """Add in a result from a constituency. Any previous result is removed. If

@@ -1,10 +1,12 @@
+import datetime
+
 from flask import current_app
-from sqlalchemy import event
+from sqlalchemy import event, desc
 from sqlalchemy.exc import IntegrityError
 
 from psephology.model import (
-    db, migrate, Party, Constituency, Voting,
-    add_constituency_result_line, import_results,
+    db, migrate, Party, Constituency, Voting, LogEntry,
+    add_constituency_result_line, import_results, log
 )
 
 from .fixtures import RESULT_LINES, add_parties
@@ -253,3 +255,17 @@ class ImportDataTest(TestCase):
         self.assertEqual(
             Voting.query.filter(
                 Voting.constituency==c).count(), 1)
+
+class LogEntryTest(TestCase):
+    def test_defaults(self):
+        """Log entry defaults should be set."""
+        e = LogEntry()
+        db.session.add(e)
+        db.session.commit()
+        self.assertTrue(isinstance(e.created_at, datetime.datetime))
+
+    def test_log(self):
+        log('Hello')
+        self.assertEqual(
+            LogEntry.query.order_by(desc(LogEntry.created_at)).first().message,
+            'Hello')
