@@ -1,0 +1,27 @@
+{% extends '_layout/base.html' %}
+
+{% block content %}
+<div class="page-header">
+  <h1>
+    Log
+  </h1>
+</div>
+
+{% if results %}
+<ul class="list-group" id="log">
+  {% for entry in results %}
+    <li class="list-group-item">
+      <h4 class="list-group-item-heading">
+        {{ entry.created_at.strftime('%H:%M:%S %d %b %Y') }}
+      </h4>
+      <p class="list-group-item-text"><pre>{{ entry.message }}</pre></p>
+    </li>
+  {% endfor %}
+</ul>
+{% else %}
+<div class="panel-body" id="no-results">
+  <div class="text-center">There are currently no log entries.</div>
+</div>
+{% endif %}
+
+{% endblock %}

@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 
-from psephology.model import db, add_constituency_result_line
+from psephology.model import db, add_constituency_result_line, log
 from .util import TestCase
 from .fixtures import add_parties
 
@@ -50,3 +50,20 @@ class UITests(TestCase):
         soup = BeautifulSoup(r.data, 'html.parser')
         self.assertIs(soup.find(id='no-results'), None)
         self.assertIsNot(soup.find(id='results-table'), None)
+
+    def test_log_no_results(self):
+        """Log with no results should have UI element saying so."""
+        r = self.client.get('/log')
+        self.assertEqual(r.status_code, 200)
+        soup = BeautifulSoup(r.data, 'html.parser')
+        self.assertIsNot(soup.find(id='no-results'), None)
+        self.assertIs(soup.find(id='log'), None)
+
+    def test_log_with_results(self):
+        """Log with results should have a table."""
+        log('hello')
+        r = self.client.get('/log')
+        self.assertEqual(r.status_code, 200)
+        soup = BeautifulSoup(r.data, 'html.parser')
+        self.assertIs(soup.find(id='no-results'), None)
+        self.assertIsNot(soup.find(id='log'), None)
