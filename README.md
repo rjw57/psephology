@@ -50,7 +50,6 @@ $ export PSEPHOLOGY_CONFIG=$PWD/config.py
 $ export FLASK_APP=psephology.autoapp
 $ export FLASK_DEBUG=1
 $ flask db upgrade
-$ flask psephology importlayouts layouts.yaml
 $ flask run
 ```
 
