@@ -147,17 +147,29 @@ def log(message):
     db.session.add(LogEntry(message=message))
     db.session.commit()
 
-def add_constituency_result_line(line, session=None):
+def _query_valid_party_codes(session=None):
+    """Return a set of valid party codes."""
+    session = session if session is not None else db.session
+    return set(p.id for p in Party.query)
+
+def add_constituency_result_line(line, valid_codes=None, session=None):
     """Add in a result from a constituency. Any previous result is removed. If
     there is an error, ValueError is raised with an informative message.
 
     Session is the database session to use. If None, the global db.session is
     used.
 
+    If valid_codes is non-None, it is a set containing the party codes which are
+    allowed in this database. If None, this set is queried from the database.
+
     The session is not commit()-ed.
 
     """
     session = session if session is not None else db.session
+    valid_codes = (
+        valid_codes if valid_codes is not None else
+        _query_valid_party_codes(session)
+    )
 
     cn, results = parse_result_line(line)
 
@@ -180,11 +192,10 @@ def add_constituency_result_line(line, session=None):
 
     # Now add a voting record for each result
     for count, party_id in results:
-        party = Party.query.get(party_id)
-        if party is None:
+        if party_id not in valid_codes:
             raise ValueError('Party code "{}" is unknown'.format(party_id))
         session.add(Voting(
-            count=count, party=party, constituency=constituency))
+            count=count, party_id=party_id, constituency=constituency))
 
 class Diagnostic:
     """A diagnostic from parsing a file. Records the original line, a
@@ -201,9 +212,12 @@ class Diagnostic:
             self.line_number, self.line.strip(), self.message
         )
 
-def import_results(results_file, session=None):
+def import_results(results_file, valid_codes=None, session=None):
     """Take a iterable which yields result lines and add them to the database.
     If session is None, the global db.session is used.
+
+    If valid_codes is non-None, it is a set containing the party codes which are
+    allowed in this database. If None, this set is queried from the database.
 
     .. note::
 
@@ -213,27 +227,26 @@ def import_results(results_file, session=None):
 
     """
     session = session if session is not None else db.session
+    valid_codes = (
+        valid_codes if valid_codes is not None else
+        _query_valid_party_codes(session)
+    )
+
     diagnostics = []
 
     # This is a relatively straightforward but sub-optimal way to implement a
-    # bulk insert. The main issues are:
-    #
-    #   - The DB is queried for each party in each result as part of the
-    #     verification. Since the number of parties is small, it would be more
-    #     efficient to query a single list of valid party codes.
-    #
-    #   - The DB is queried once per result to see if the constituency exists.
-    #     It would be preferable to do a single query over all of the given
-    #     constituency names to determine which ones are present.
-    #
-    # Both of these optimisations are quick wins but would make the flow of this
-    # function less obvious. For the moment, leave the sub-optimal
-    # implementation but should we need to re-visit this function as we deal
-    # with greater numbers of results the strategies above should be tried.
+    # bulk insert. The main issue is that the DB is queried once per result to
+    # see if the constituency exists. It would be preferable to do a single
+    # query over all of the given constituency names to determine which ones are
+    # present. This would make the flow of this function less obvious. For the
+    # moment, leave the sub-optimal implementation but should we need to
+    # re-visit this function as we deal with greater numbers of results the
+    # strategy above should be tried.
 
     for line_idx, line in enumerate(results_file):
         try:
-            add_constituency_result_line(line, session=session)
+            add_constituency_result_line(
+                line, valid_codes=valid_codes, session=session)
         except ValueError as e:
             diagnostics.append(Diagnostic(
                 line, e.args[0] % e.args[1:], line_idx + 1
