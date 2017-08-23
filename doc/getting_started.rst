@@ -21,7 +21,11 @@ we're going to build a Docker container:
 
 .. code:: console
 
-    $ docker built -t psephology .
+    $ docker built -t rjw57/psephology .
+
+This step is actually optional since there is an `image
+<https://hub.docker.com/r/rjw57/psephology/>`_ on Docker hub which will
+automatically be pulled if necessary.
 
 As part of the container build, the test suite is run to ensure that the current
 version is runnable inside the container environment. Once the container is
@@ -30,7 +34,7 @@ built, you can run the server via ``docker run``:
 .. code:: console
 
     $ docker run -it --rm --name psephology-server \
-        -p 5000:5000 psephology
+        -p 5000:5000 rjw57/psephology
 
 Although the container is now running, trying to visit the site will result in
 an error. This is because we've not yet migrated the datbase to the latest
@@ -229,9 +233,11 @@ Web UI
 ------
 
 The web UI is available at http://localhost:5000/ (or at the appropriate IP if
-using ``docker-machine``). There are two views: one gives a summary of seat
-totals for each party and one gives a list of the winning party for each
-constituency.
+using ``docker-machine``). The following pages are available:
+
+* A summary giving total number of seats for each party
+* A list of winners for each constituency
+* An event log showing any errors/warnings from importing reults files
 
 Command line
 ------------
