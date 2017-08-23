@@ -1,11 +1,21 @@
 # Python bytecode
 *.pyc
 __pycache__
+
+# Build output
 build
 dist
 *.egg-info
 .eggs
 .coverage
-htmlcov
-*.sqlite
 venv
+doc/_build
+
+# Testing
+htmlcov
+
+# Any databases
+*.sqlite
+
+# Test data
+test-data
