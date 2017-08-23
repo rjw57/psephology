@@ -17,15 +17,13 @@ Firstly, clone the Psephology application from GitHub:
     $ cd psephology
 
 You could perform a standard ``pip install .`` to install the application but
-we're going to build a Docker container:
+we're going to pull the Docker container `image
+<https://hub.docker.com/r/rjw57/psephology/>`_ from Docker hub. Should you need
+to actually build the container, you can do so via:
 
 .. code:: console
 
-    $ docker built -t rjw57/psephology .
-
-This step is actually optional since there is an `image
-<https://hub.docker.com/r/rjw57/psephology/>`_ on Docker hub which will
-automatically be pulled if necessary.
+    $ docker build -t rjw57/psephology .
 
 As part of the container build, the test suite is run to ensure that the current
 version is runnable inside the container environment. Once the container is
