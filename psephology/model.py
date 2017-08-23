@@ -215,7 +215,7 @@ def import_results(results_file, session=None):
     session = session if session is not None else db.session
     diagnostics = []
 
-    # This is a relatively straighforward but sub-optimal way to implement a
+    # This is a relatively straightforward but sub-optimal way to implement a
     # bulk insert. The main issues are:
     #
     #   - The DB is queried for each party in each result as part of the
