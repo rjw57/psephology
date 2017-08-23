@@ -1,6 +1,9 @@
 Psephology - it's election night
 ================================
 
+.. toctree::
+    :maxdepth: 2
+
 Getting started
 ---------------
 
