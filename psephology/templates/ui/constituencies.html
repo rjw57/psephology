@@ -12,8 +12,9 @@
   <thead>
     <tr>
       <th>Constituency</th>
-      <th>Total votes cast</th>
       <th>Winning party</th>
+      <th>Winning party votes</th>
+      <th>Total votes cast</th>
       <th>Share</th>
     </tr>
   </thead>
@@ -22,10 +23,12 @@
       <tr>
         <td>{{constituency.name}}</td>
         {% if voting %}
-          <td>{{total_votes}}</td>
           <td>{{voting.party.name}}</td>
+          <td>{{max_votes}}</td>
+          <td>{{total_votes}}</td>
           <td>{{'%.1f' | format(100 * max_votes / total_votes)}}%</td>
         {% else %}
+          <td>&mdash;</td>
           <td>&mdash;</td>
           <td>&mdash;</td>
           <td>&mdash;</td>
