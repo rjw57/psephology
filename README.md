@@ -18,6 +18,29 @@ simple getting started guide which covers building a Docker container to host
 the application. The information below is of more use if you are working on the
 project and want to run a local development server.
 
+### Short, short version
+
+```console
+$ docker pull rjw57/psephology
+$ docker run -it --rm --name psephology-server -p 5000:5000 rjw57/psephology
+```
+
+In another terminal:
+
+```console
+$ docker exec psephology-server flask db upgrade
+```
+
+Now visit http://localhost:5000/ or, if you're using
+[docker-machine](https://docs.docker.com/machine/):
+
+```console
+$ xdg-open http://$(docker-machine ip):5000/    # Linux-y
+$ open http://$(docker-machine ip):5000/        # OS X
+```
+
+### Local server
+
 You need to run ``flask db upgrade`` before running the server:
 
 ```console
