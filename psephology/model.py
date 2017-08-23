@@ -205,9 +205,31 @@ def import_results(results_file, session=None):
     """Take a iterable which yields result lines and add them to the database.
     If session is None, the global db.session is used.
 
+    .. note::
+
+        This can take a relatively long time when adding several hundred
+        results. Should this become a bottleneck, there are some optimisation
+        opportunities.
+
     """
     session = session if session is not None else db.session
     diagnostics = []
+
+    # This is a relatively straighforward but sub-optimal way to implement a
+    # bulk insert. The main issues are:
+    #
+    #   - The DB is queried for each party in each result as part of the
+    #     verification. Since the number of parties is small, it would be more
+    #     efficient to query a single list of valid party codes.
+    #
+    #   - The DB is queried once per result to see if the constituency exists.
+    #     It would be preferable to do a single query over all of the given
+    #     constituency names to determine which ones are present.
+    #
+    # Both of these optimisations are quick wins but would make the flow of this
+    # function less obvious. For the moment, leave the sub-optimal
+    # implementation but should we need to re-visit this function as we deal
+    # with greater numbers of results the strategies above should be tried.
 
     for line_idx, line in enumerate(results_file):
         try:
