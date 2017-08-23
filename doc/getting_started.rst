@@ -60,7 +60,7 @@ Firstly, clone the Psephology application from GitHub:
     $ git clone https://github.com/rjw57/psephology
     $ cd psephology
 
-Once can now build the Docker container directly from the repo:
+One can now build the Docker container directly from the repo:
 
 .. code:: console
 
