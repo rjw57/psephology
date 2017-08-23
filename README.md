@@ -7,7 +7,7 @@ Status](https://coveralls.io/repos/github/rjw57/psephology/badge.svg?branch=mast
 [![Documentation
 Status](https://readthedocs.org/projects/psephology/badge/?version=latest)](http://psephology.readthedocs.io/en/latest/?badge=latest)
 [![Docker Build
-Statu](https://img.shields.io/docker/build/rjw57/psephology.svg)]()
+Statu](https://img.shields.io/docker/build/rjw57/psephology.svg)](https://hub.docker.com/r/rjw57/psephology/)
 
 Psephology is an experimental webapp for recording election results. For more
 information take a look at the
