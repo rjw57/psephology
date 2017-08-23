@@ -58,12 +58,12 @@ class Constituency(db.Model):
 
     .. py:attribute:: name
 
-        Human-readable name
+        Human-readable name. Must be unique.
 
     .. py:attribute:: votings
 
         Sequence of :py:class:`.Voting` instances associated with this
-        constituency..
+        constituency.
 
     """
     __tablename__ = 'constituencies'
@@ -83,7 +83,7 @@ class Voting(db.Model):
 
     .. py:attribute:: count
 
-        Number of votes cast
+        Number of votes cast.
 
     .. py:attribute:: constituency_id
 
@@ -127,11 +127,12 @@ class LogEntry(db.Model):
 
     .. py:attribute:: created_at
 
-        Date and time at which this entry was created in UTC.
+        Date and time at which this entry was created in UTC. When creating an
+        instance, this defaults to the current date and time.
 
     .. py:attribute:: message
 
-        Textual content of log
+        Textual content of log.
 
     """
     __tablename__ = 'log_entries'
