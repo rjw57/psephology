@@ -56,7 +56,6 @@ def import_results():
     # Interpret incoming data as UTF-8 text. If this fails, abort with a 400 Bad
     # Request error.
     data = fobj.read()
-    print(data[:40])
     try:
         results = data.decode('utf8').strip().splitlines()
     except UnicodeDecodeError:
