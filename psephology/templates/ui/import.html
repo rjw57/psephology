@@ -1,0 +1,31 @@
+{% extends "_layout/base.html" %}
+
+{% block content %}
+<div class="page-header"><h1>Import results</h1></div>
+
+<form method="POST" enctype="multipart/form-data"
+  action="{{url_for('ui.import_results')}}">
+  <div class="panel panel-default">
+    <div class="panel-heading"><h3 class="panel-title">Results</h3></div>
+
+    <div class="panel-body">
+      <div class="form-group">
+        <label class="sr-only" for="input-file" class="control-label">CSV file</label>
+        <input type="file" autofocus class="form-control" id="input-file"
+          name="results" required>
+        <span class="help-block">
+          This file should consist of result lines from the election night news
+          source.
+        </span>
+      </div>
+    </div>
+
+    <div class="panel-footer">
+      <button type="submit" class="btn btn-default">
+        <span class="glyphicon glyphicon-upload"></span>
+        Upload
+      </button>
+    </div>
+  </div>
+</form>
+{% endblock %}

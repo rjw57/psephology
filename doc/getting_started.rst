@@ -229,35 +229,3 @@ Liberal Democrats have gained on:
       }
     }
 
-Web UI
-------
-
-The web UI is available at http://localhost:5000/ (or at the appropriate IP if
-using ``docker-machine``). The following pages are available:
-
-* A summary giving total number of seats for each party
-* A list of winners for each constituency
-* An event log showing any errors/warnings from importing reults files
-
-Command line
-------------
-
-The Psephology application has a command-line interface which can be run via the
-``flask`` tool. Perhaps the most useful command is ``flask run`` which will
-launch a server hosting the application.
-
-Database migration
-``````````````````
-
-Psephology uses Flask-Migrate and alembic to manage the database migrations. On
-first run or when upgrading the software, remember to run ``flask db upgrade``
-to migrate the database to the newest version.
-
-Importing results
-`````````````````
-
-Results may be imported from the command line via ``flask psephology
-importresults``. See ``flask psephology importresults --help`` for more
-information.
-
-

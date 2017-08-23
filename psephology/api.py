@@ -4,7 +4,7 @@ API.
 
 """
 
-from flask import Blueprint, jsonify, request, abort
+from flask import Blueprint, jsonify, request, abort, flash
 from sqlalchemy.orm import joinedload
 
 from psephology.model import db, import_results, Constituency, Voting

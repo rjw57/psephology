@@ -5,4 +5,6 @@ Psephology - it's election night
     :maxdepth: 2
 
     getting_started
+    webui
+    commandline
     reference
