@@ -16,10 +16,10 @@
     </tr>
   </thead>
   <tbody>
-    {% for party, constituency_count in results %}
+    {% for result in results %}
       <tr>
-        <td>{{ party.name }}</td>
-        <td>{{ constituency_count }}</td>
+        <td>{{ result.Party.name }}</td>
+        <td>{{ result.constituency_count }}</td>
       </tr>
     {% endfor %}
   </tbody>

@@ -19,14 +19,17 @@
     </tr>
   </thead>
   <tbody>
-    {% for constituency, voting, max_votes, total_votes in results %}
+    {% for result in results %}
       <tr>
-        <td>{{constituency.name}}</td>
-        {% if voting %}
-          <td>{{voting.party.name}}</td>
-          <td>{{max_votes}}</td>
-          <td>{{total_votes}}</td>
-          <td>{{'%.1f' | format(100 * max_votes / total_votes)}}%</td>
+        <td>{{result.Constituency.name}}</td>
+        {% if result.Voting %}
+          <td>{{result.Voting.party.name}}</td>
+          <td>{{result.max_vote_count}}</td>
+          <td>{{result.total_votes_count}}</td>
+          <td>{{
+            '%.1f'
+            | format(100 * result.max_vote_count /  result.total_vote_count)
+          }}%</td>
         {% else %}
           <td>&mdash;</td>
           <td>&mdash;</td>
