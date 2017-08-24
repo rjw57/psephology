@@ -4,6 +4,11 @@ along with some utility functions which can be used to mutate it. The
 :py:mod:`.query` module contains some potted queries for this data model which
 provide useful summaries.
 
+None of the functions in :py:mod:`.model` will run ``session.commit()``. If you
+mutate the database inside a UI/API implementation, you'll need to remember to
+commit the result. This is to guard against partial updates to the DB is a
+UI/API method fails.
+
 """
 
 import datetime
@@ -145,7 +150,6 @@ class LogEntry(db.Model):
 def log(message):
     """Convenience function to log a message to the database."""
     db.session.add(LogEntry(message=message))
-    db.session.commit()
 
 def _query_valid_party_codes(session=None):
     """Return a set of valid party codes."""
